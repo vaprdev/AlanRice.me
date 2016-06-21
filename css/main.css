@@ -2,9 +2,9 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-* {
+/** {
   border: 1px solid red;
-}
+}*/
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -14,6 +14,7 @@ body {
   padding: 40px 75px 40px 75px;
   border: 30px solid #fff;
   background: #f1f2ed;
+  margin: 0;
 }
 
 .line-through {
@@ -27,12 +28,18 @@ body {
   margin: 0 auto;
 }
 
+.site_header {
+  padding-bottom: 30px;
+  border-bottom: 1px dotted #d3d3d3;
+}
+
 .site_header__image {
   width: 130px;
   height: 130px;
   display: block;
   margin: 0 auto;
   border-radius: 100%;
+  border: 1px solid black;
 }
 
 
@@ -42,5 +49,26 @@ body {
   margin: 0 auto;
   padding: 20px 0 20px 0;
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
+  color: #4d4d4d;
+}
+
+.site_header__list {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+  list-style-type: disc;
+  text-align: center;
+}
+
+.site_header__list li {
+  color: #4d4d4d;
+  display: inline-block;
+  text-transform: capitalize;
+  overflow: hidden;
+  max-width: 100%;
+  margin-right: 17px;
+  font-weight: bold;
+  font-size: 14px;
 }
