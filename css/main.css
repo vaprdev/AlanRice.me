@@ -19,6 +19,8 @@ body {
 
 .line-through {
   text-decoration: line-through;
+  color: #aa9483;
+  opacity: 0.5;
 }
 
 
@@ -32,7 +34,7 @@ body {
    Header
    ========== */
 .site_header {
-  padding-bottom: 30px;
+  padding-bottom: 23px;
   border-bottom: 1px dotted #d3d3d3;
 }
 
@@ -53,10 +55,11 @@ body {
   font-family: 'Playfair Display', serif;
   width: 60%;
   margin: 0 auto;
-  padding: 20px 0 20px 0;
+  padding: 25px 0 25px 0;
   text-align: center;
   font-size: 24px;
   color: #4d4d4d;
+  line-height: 34px;
 }
 
 .site_header__list {
@@ -69,21 +72,50 @@ body {
 }
 
 .site_header__list li {
-  color: #4d4d4d;
   display: inline-block;
-  text-transform: capitalize;
   overflow: hidden;
   max-width: 100%;
-  margin-right: 17px;
-  font-weight: bold;
-  font-size: 14px;
+  margin: 0 8px 0px 8px;
+  vertical-align: top;
 }
+
+.site_header__list li a{
+  text-decoration: none;
+  color: #4d4d4d;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.site_header__list li:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0px;
+    background: transparent;
+    transition: background-color .5s ease, width .5s ease;
+}
+
+.site_header__list li:hover:after {
+  width: 100%;
+  background: #aa9483;
+}
+
+.site_header__list span {
+  display: inline-block;
+  vertical-align: middle;
+  color: rgba(159,159,159, 0.4);
+}
+
+
 
 /* ===========
   Work Section
 ============== */
 
 .container {
+  padding-top: 26px;
   margin: 0 auto;
   max-width: 1560px;
   position: relative;
