@@ -9,13 +9,31 @@
     <meta charset="utf-8">
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+
+    {% if page.url == "/contact.html" %}
+      <link rel="stylesheet" href="/css/contact.css">
+    {% else %}
+      <link rel="stylesheet" href="css/default.css">
+    {% endif %}
     <!-- title -->
     <title></title>
   </head>
   <body>
 
     {% include header.html %}
-    {{ content }}
+    {{ page.url }}
+
+    {% if page.url == "/contact.html" %}
+      <div class="contact__paragraph">
+          {{ content }}
+        </div>
+      {% else %}
+        <div class="default__container">
+          {{ content }}
+        </div>
+      {% endif %}
+
+    </div>
 
     <!-- scripts -->
     <script type="text/javascript" src="assets/js/main.js"></script>
