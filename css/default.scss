@@ -9,13 +9,17 @@
   background: red;
 }
 
+.default__image-container {
+  float: left;
+}
+
 .default__image {
   max-width: 460px;
   display: block;
   margin-bottom: 25px;
 }
 
-p {
+.default__text {
   float: left;
   font-family: $play-fair;
   margin-left: 25px;

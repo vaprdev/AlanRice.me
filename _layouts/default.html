@@ -2,10 +2,15 @@
 layout: layout
 ---
   <div class="default__container">
-    <div style="float:left">
+    <div class="default__image-container">
       <img src="{{page.image}}" class="default__image">
       <img src="{{page.image2}}" class="default__image">
     </div>
+    {% for tech in page['tech'] %}
+      {{ tech }}
+    {% endfor %}
+    <div class="default__text">
       {{ content }}
+    </div>
   </div>
 </div>
