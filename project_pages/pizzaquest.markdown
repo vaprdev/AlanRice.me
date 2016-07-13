@@ -3,6 +3,18 @@ layout: default
 permalink: pizzaquest
 image: assets/images/pizzaquest/pizzaquest1.png
 image2: assets/images/pizzaquest/pizzaquest2.png
+project_title: PizzaQuest (GA)
+tech:
+- 'Ruby on Rails'
+- 'Javascript'
+- 'SQL'
+- 'Google Maps API'
+tech_links:
+- ''
+- 'http://rubyonrails.org/'
+- 'https://www.javascript.com/'
+- 'https://en.wikipedia.org/wiki/SQL'
+- 'https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=google%20maps%20api'
 ---
 
 Working on PizzaQuest was one of the most fun projects at General Assembly. The curriculum at GA rightly places a lot of importance on version-control and collaboration, which was great preparation for my internship. PizzaQuest was the result of a group effort of 4 members.

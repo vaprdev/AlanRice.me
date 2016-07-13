@@ -1,15 +1,24 @@
 ---
 layout: layout
 ---
+
   <div class="default__container">
     <div class="default__image-container">
       <img src="{{page.image}}" class="default__image">
       <img src="{{page.image2}}" class="default__image">
+      {% if page.url != '/about' %}
+        <div class="default__tech-list">
+          <h1 class="default__tech-list-header">Tech Used</h1>
+          <div class="default__tech-list-link-container">
+            {% for tech in page['tech'] %}
+              <a class="default__tech-list-link" href="{{ page.tech_links[forloop.index] }}" target="_blank">{{ tech }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
     </div>
-    {% for tech in page['tech'] %}
-      {{ tech }}
-    {% endfor %}
     <div class="default__text">
+      <h1 class="default__project-title">{{ page.project_title }}</h1>
       {{ content }}
     </div>
   </div>

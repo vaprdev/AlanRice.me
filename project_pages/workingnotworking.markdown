@@ -3,9 +3,19 @@ layout: default
 permalink: workingnotworking
 image: assets/images/workingnotworking/workingnotworking1.png
 image2: assets/images/workingnotworking/workingnotworking2.png
+project_title: Working Not Working (Oak)
 tech:
+- 'Ruby on Rails'
 - 'Javascript'
-- 'Ruby'
+- 'Will-Paginate'
+- 'InfiniteScroll'
+- 'ActiveAdmin'
+tech_links:
+- 'http://rubyonrails.org/'
+- 'https://www.javascript.com/'
+- 'https://github.com/mislav/will_paginate'
+- 'https://github.com/infinite-scroll/infinite-scroll'
+- 'http://activeadmin.info/'
 ---
 
 'Working Not Working' is an invite-only community of the world's top creatives that companies like Facebook, Google, and the New York Times use to hire talent. Oak developed WNW's online presence and provides ongoing maintenance and develops new features for the site.
