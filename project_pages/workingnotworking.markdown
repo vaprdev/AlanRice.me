@@ -4,6 +4,7 @@ permalink: workingnotworking
 image: assets/images/workingnotworking/workingnotworking1.png
 image2: assets/images/workingnotworking/workingnotworking2.png
 project_title: Working Not Working (Oak)
+project_link: https://workingnotworking.com/
 tech:
 - 'Ruby on Rails'
 - 'Javascript'

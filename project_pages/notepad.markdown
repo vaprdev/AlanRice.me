@@ -4,6 +4,7 @@ permalink: notepad
 image: assets/images/notepad/notepad1.png
 image2: assets/images/notepad/notepad2.png
 project_title: NotePad (GA)
+project_link: https://github.com/AlanRice93/NotePad
 tech:
 - 'Ruby on Rails'
 - 'Backbone'

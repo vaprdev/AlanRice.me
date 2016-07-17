@@ -4,6 +4,7 @@ permalink: pizzaquest
 image: assets/images/pizzaquest/pizzaquest1.png
 image2: assets/images/pizzaquest/pizzaquest2.png
 project_title: PizzaQuest (GA)
+project_link: https://github.com/davidwoodsandersen/PizzaQuest
 tech:
 - 'Ruby on Rails'
 - 'Javascript'

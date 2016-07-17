@@ -4,6 +4,7 @@ permalink: spoton
 image: assets/images/spoton/spoton1.png
 image2: assets/images/spoton/spoton2.png
 project_title: SpotOn (GA)
+project_link: https://github.com/AlanRice93/SpotOn
 tech:
 - 'Node'
 - 'Angular'

@@ -4,6 +4,7 @@ permalink: creativemornings
 image: assets/images/creative_mornings/creative_mornings2.png
 image2: assets/images/creative_mornings/creative_mornings1.png
 project_title: Creative Mornings Freelancer Award (Oak)
+project_link: http://freelancer.creativemornings.com/
 tech:
 - 'Jekyll'
 - 'Liquid'
