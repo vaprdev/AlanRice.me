@@ -4,13 +4,21 @@
 //--- import statements --//
 @import "_header",
         "_contact_bar",
-        "_fonts";
+        "_fonts",
+        "_mixins";
 
 //-- elements --//
 html {
   box-sizing: border-box;
   margin: 0;
 }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
 
 // *{
 //   border: 1px solid red;
@@ -22,11 +30,10 @@ html {
 
 
 body {
-  // overflow: hidden;
-  padding: 40px 75px 40px 75px;
   border: 30px solid #fff;
   background: #f1f2ed;
   margin: 0;
+
 }
 
 .line-through {

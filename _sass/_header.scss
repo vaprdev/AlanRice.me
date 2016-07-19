@@ -1,10 +1,12 @@
 @import '_fonts';
+@import '_mixins';
 
 .site_header {
   padding-bottom: 23px;
   border-bottom: 1px dotted #d3d3d3;
   max-width: 1100px;
   margin: 20px auto 33px auto;
+
 }
 
 .site_header__image {
@@ -29,10 +31,19 @@
   font-size: 24px;
   color: #4d4d4d;
   line-height: 34px;
+
+  //--media queries --//
+  @include max-width(750px){
+    width: 75%;
+  }
+  @include max-width(500px){
+    width: 90%;
+  }
+
 }
 
 .site_header__list {
-  padding-bottom: 10px;
+  padding: 0 0 10px 0;
   margin-top: 0;
   margin-bottom: 0;
   display: block;

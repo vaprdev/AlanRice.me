@@ -1,6 +1,7 @@
 ---
 ---
 @import "fonts";
+@import "mixins";
 
 .default__container {
   overflow: hidden;
@@ -8,23 +9,57 @@
   margin: 29px auto 0px auto;
 }
 
+#default__project-title {
+  width: 45%;
+  display: inline-block;
+  margin: 0 53px 25px 0;
+  float:right;
+  //--media queries --//
+  @include max-width(750px){
+    text-align: center;
+    display: block;
+    float: none;
+    margin: 0 auto 25px auto;
+    width: 90%;
+  }
+}
+
 .default__image-container {
   float: left;
-  max-width: 45%;
+  width: 45%;
+
+  //--media queries--//
+  @include max-width(750px){
+    display: block;
+    float: none;
+    margin: 0 auto 25px auto;
+    width: 90%;
+  }
 }
 
 .default__image {
   max-width: 100%;
   display: block;
   margin-bottom: 25px;
+
+
+  @include max-width(750px){
+    display: block;
+    float: none;
+    margin: 0 auto 25px auto;
+    max-width: 80%;
+  }
+  @include max-width(650px){
+    max-width: 100%;
+  }
 }
 
 .default__text {
-  float: left;
+  float: right;
   font-family: $play-fair;
   margin-left: 53px;
-  max-width: 50%;
-  margin-top: -10px;
+  margin: -10px 53px 0 0;
+  width: 45%;
   h1 {
     margin: 0;
   }
@@ -34,8 +69,28 @@
     line-height: 2;
     margin-bottom: 25px;
   }
+
+  //--media queries --//
+  @include max-width(750px){
+    display: block;
+    float: none;
+    margin: 0 auto 25px auto;
+    width: 90%;
+  }
 }
 
+
+.default__tech-list {
+  width: 45%;
+  display: block;
+  clear: left;
+  @include max-width(750px){
+    display: block;
+    float: none;
+    margin: 0 auto 25px auto;
+    width: 90%;
+  }
+}
 .default__tech-list-header {
   max-width: 100%;
   text-align: center;
