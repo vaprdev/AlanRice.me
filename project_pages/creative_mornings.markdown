@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: creativemornings
+permalink: creativemornings.html#link_jump
 image: assets/images/creative_mornings/creative_mornings2.png
 image2: assets/images/creative_mornings/creative_mornings1.png
 project_title: Creative Mornings Freelancer Award (Oak)

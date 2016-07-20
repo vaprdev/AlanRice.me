@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: spoton
+permalink: spoton.html#link_jump
 image: assets/images/spoton/spoton1.png
 image2: assets/images/spoton/spoton2.png
 project_title: SpotOn (GA)

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: about
+permalink: about.html#link_jump
 image: assets/images/greece.jpg
 image2: assets/images/alan2.jpg
 ---

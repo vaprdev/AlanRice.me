@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: workingnotworking
+permalink: workingnotworking.html#link_jump
 image: assets/images/workingnotworking/workingnotworking1.png
 image2: assets/images/workingnotworking/workingnotworking2.png
 project_title: Working Not Working (Oak)

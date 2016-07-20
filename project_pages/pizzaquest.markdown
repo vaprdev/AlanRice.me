@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: pizzaquest
+permalink: pizzaquest.html#link_jump
 image: assets/images/pizzaquest/pizzaquest1.png
 image2: assets/images/pizzaquest/pizzaquest2.png
 project_title: PizzaQuest (GA)

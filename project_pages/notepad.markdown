@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: notepad
+permalink: notepad.html#link_jump
 image: assets/images/notepad/notepad1.png
 image2: assets/images/notepad/notepad2.png
 project_title: NotePad (GA)
