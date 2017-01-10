@@ -7,12 +7,17 @@
   overflow: hidden;
   max-width: 1100px;
   margin: 29px auto 0px auto;
+  padding: 0 60px 60px 60px;
+
+  @include max-width(750px){
+    padding: 0 30px 60px 30px;
+  }
 }
 
 #default__project-title {
   width: 45%;
   display: inline-block;
-  margin: 0 53px 25px 0;
+  margin: 0 0 25px 0;
   float:right;
   //--media queries --//
   @include max-width(750px){
@@ -26,7 +31,7 @@
 
 .default__image-container {
   float: left;
-  width: 45%;
+  width: 44%;
 
   //--media queries--//
   @include max-width(750px){
@@ -58,7 +63,7 @@
   float: right;
   font-family: $play-fair;
   margin-left: 53px;
-  margin: -10px 53px 0 0;
+  margin: -32px 0px 0 0;
   width: 45%;
   h1 {
     margin: 0;
@@ -79,9 +84,17 @@
   }
 }
 
+.default__text.about {
+    margin: -50px 30px 0 0;
+    @include max-width(750px){
+      margin: 0 auto;
+    }
+}
 
-.default__tech-list {
-  width: 45%;
+
+
+#default__tech-list {
+  width: 44%;
   display: block;
   clear: left;
   @include max-width(750px){

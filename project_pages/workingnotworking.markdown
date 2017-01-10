@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: workingnotworking.html#link_jump
+permalink: workingnotworking.html
 image: assets/images/workingnotworking/workingnotworking1.png
 image2: assets/images/workingnotworking/workingnotworking2.png
 project_title: Working Not Working (Oak)
@@ -19,8 +19,8 @@ tech_links:
 - 'http://activeadmin.info/'
 ---
 
-'Working Not Working' is an invite-only community of the world's top creatives that companies like Facebook, Google, and the New York Times use to hire talent. Oak developed WNW's online presence and provides ongoing maintenance and develops new features for the site.
+'Working Not Working' is an invite-only community of the world's top creatives that companies like Facebook, Google, and the New York Times use to hire talent. Oak developed WNW's online presence and provides ongoing maintenance as well as develops new features.
 
-While interning at Oak I tackled different UI issues that were provided by WNW. I also developer new features to the site, for example allowing managers to re-post jobs and to received emails when their posts expired.   
+While interning at Oak I tackled different UI and functionality issues provided by WNW on Github. Many of these were UI issues that were fixed with a mix of Sass and Javascript. I also developed new payment options of users using Stripe that WNW wanted to implement.
 
-It was a great experience to work on a site that's used by thousands of daily users and is worked on by many different developers. It was a unique challenge to write clear, articulated code that others could read and adapt down the road. WNW also included tons of different Gems that I got to learn, including InfiniteScroll, Will-Paginate, and Isotope. Working on the site gave me a huge education on navigating huge, long-standing projects and writing code that could explain itself.
+It was great working on a project that thousands of people use everyday. Since WNW is touched by many different developers, it was a great opportunity to write clear, articulated code others could understand and manipluate if they so wished. WNW also included tons of different Gems that I got to learn, including InfiniteScroll, Will-Paginate, and Isotope. This was the most robust Rails app I had worked on at the time and it was a real eye-opener into what Rails is capable of. 

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: notepad.html#link_jump
+permalink: notepad.html
 image: assets/images/notepad/notepad1.png
 image2: assets/images/notepad/notepad2.png
 project_title: NotePad (GA)
@@ -17,6 +17,6 @@ tech_links:
 
 NotePad was a rails project that I built to simulate Twitter. It was an interesting experience combining Backbone and Rails, two technologies I'd never used in conjunction. Using Backbone was a huge revelation for me from a UI standpoint, as it was the first time I saw that JS can allow you to manipulate content without refreshing the page.
 
-NotePad also taught me the core concepts behind building CRUD functionality, and the specific cases where it can be tricky. I wanted users to be able to edit posts, and getting the edit functionality and UI to be clear to users was a unique challenge.
+NotePad also taught me the core concepts behind building CRUD functionality. I wanted users to be able to do any of the main action they're used to doing on other sites, including editing posts (or canceling an edit). NotePad marked a shift in my thought process where, through the CRUD system, I started designing any code I wrote around the end-user's experience.
 
-In the future I want to develop the app to have a stronger social element. As of now, users see other posts from random users, but I'd like to developer a follower system, where content is tailored depending on who a user follows.
+Sometime down the road I want to add a lot more to NotePad. The first major step would be to make the social part of the app come together. I want users to be able to friend each other, follow each other, comment and like each-others posts, etc. 

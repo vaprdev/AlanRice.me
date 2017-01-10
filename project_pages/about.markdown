@@ -1,14 +1,16 @@
 ---
 layout: default
-permalink: about.html#link_jump
+permalink: about.html
 image: assets/images/greece.jpg
 image2: assets/images/alan2.jpg
 ---
 
-Alan's journey into programming started differently than most. An artist all of his life, Alan found passion while painting and playing music. While a jazz student (drums) at NYU, Alan's roommate showed him a game he was building in Java. Alan was fascinated with never-ending possibilities  web development afforded creatives. Alan soon gained enough proficiency to enroll in NYU comp-sci courses.
+Alan's journey into programming started differently than most. An artist all of his life, Alan's main creative passion was playing the drum set. After playing professionally throughout high school, Alan attended NYU's Jazz Studies program. While at NYU, Alan's roommate showed him a game he was building in Java. Alan was immediately hooked and taught himself enough Python to pass into NYU Computer Science courses.  
 
-After graduating from NYU, Alan was accepted into General Assembly's 12-week Web Development Course. At GA Alan learned the in's and outs of RESTful design, APIs, and MVP structure. The program had a broad reach and included Rails, Sinatra, Node, Mongo, and SQL to name a few.
+After graduating from NYU, Alan wanted a deeper education in Web Developement, specifically different frameworks. Alan was accepted into General Assembly's 12-week Web Development Immersive program. From day one, Alan was using git, doing standups, and coding all day in Ruby and Javascript. By the end of GA, Alan had built projects in Node, Rails, and Sinatra.
 
-Alan gained real-world experience as a 12-week full-time intern at Oak Studios. At Oak, Alan contributed to projects used by thousands and was pushed to write clearer, more efficient code that was easily understood. The Oak team showed Alan how integrity, passion, and a perfectionist-level of detail produces outstanding work. This was the biggest step in Alan's education.
+Alan gained real-world experience as a 12-week full-time intern at Oak Studios. Alan was drawn to Oak because they were a close-knit team of highly skilled designers and developers who built products that were user-driven.
 
-Alan draws inspiration from his many hobbies. He still devotes a large portion of his time to studying all aspects of music and can be seen playing drums frequently in NYC venues. Alan is also a fitness fanatic, doing CrossFit daily and constantly exploring new schools of yoga. Alan is so well-versed in film that his friends constantly play betting games to see how many movies he can directly quote.
+At Oak, Alan contributed to projects used by thousands of daily users and learned the true meaning of clean-code and pixel-perfect-design. The passion and work-ethic of everyone at Oak inspired Alan to push himself to tackle problems head-on and never settle for 'good enough.'
+
+Alan draws inspiration from sources as diverse as Jazz music and CrossFit. A true movie buff, Alan claims to have seen every movie streaming on Netflix and can recite entire movies (anything by Tarantino or Scorcese) by heart. 

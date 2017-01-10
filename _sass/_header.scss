@@ -6,20 +6,40 @@
   border-bottom: 1px dotted #d3d3d3;
   max-width: 1100px;
   margin: 20px auto 33px auto;
-
 }
 
+.carl_wrap {
+  display: block;
+  width: 125px;
+  height: 125px;
+  background-image: url(/assets/images/carl_burton.gif);
+  margin: 0 auto;
+  background-size: 100%;
+  -webkit-filter: grayscale(100%);
+  border-radius: 100%;
+  transition: 0.2s;
+  &:hover {
+    -webkit-filter: grayscale(50%);
+  }
+}
+.header_ref {
+  text-decoration: underline;
+  color: #4d4d4d;
+}
 .site_header__image {
+  margin: 0 auto;
   width: 130px;
   height: 130px;
   display: block;
-  margin: 0 auto;
   border-radius: 100%;
   border: 1px solid black;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: 0.8;
 }
+
+
+
 
 
 .site_header__text {
@@ -55,7 +75,7 @@
   display: inline-block;
   overflow: hidden;
   max-width: 100%;
-  margin: 0 8px 0px 8px;
+  margin: 0 8px 5px 8px;
   vertical-align: top;
 }
 
@@ -75,9 +95,20 @@
     width: 0px;
     background: transparent;
     transition: background-color .5s ease, width .5s ease;
+    @include max-width(450px){
+      display: none;
+    }
 }
 
 .site_header__list li:hover:after {
+  width: 100%;
+  background: #aa9483;
+  // @include max-width(450px){
+  //   display:none;
+  // }
+}
+
+.site_header__list li.site_header__nav-highlight:after {
   width: 100%;
   background: #aa9483;
 }
@@ -86,4 +117,9 @@
   display: inline-block;
   vertical-align: middle;
   color: rgba(159,159,159, 0.4);
+}
+
+
+.site_header__nav-highlight {
+  color: #aa9483;
 }

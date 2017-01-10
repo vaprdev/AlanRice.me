@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: pizzaquest.html#link_jump
+permalink: pizzaquest.html
 image: assets/images/pizzaquest/pizzaquest1.png
 image2: assets/images/pizzaquest/pizzaquest2.png
 project_title: PizzaQuest (GA)
@@ -18,10 +18,8 @@ tech_links:
 - 'https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=google%20maps%20api'
 ---
 
-Working on PizzaQuest was one of the most fun projects at General Assembly. The curriculum at GA rightly places a lot of importance on version-control and collaboration, which was great preparation for my internship. PizzaQuest was the result of a group effort of 4 members.
+PizzaQuest was the result of a group effort at General Assembly. At GA, we had daily stand-ups with the entire class as a training for being on a development team. For the group project we got to put these skills along with version control to make a collaborative project.
 
-The app turned out to be much more developed than we originally thought possible. We used the Google Maps API and HTML5's geo-location to locate users and perform a search for all pizza-related restaurants within a 10 miles radius.
+ We used the Google Maps API and HTML5's geo-location to locate users and perform a search for all pizza-related restaurants within a 10 miles radius. Due in part to our organization and luck, we finished the MVP a while before the deadline, and therefore developed some extra social features. We made users have the ability to comment on each others's posts and included a leaderboard where users could compare all of their scores.
 
-Once we accomplished the MVP, we moved on to create a social aspect to the app where users could check-in at locations, write reviews, and comment on other users's check-ins and reviews. Users with the most reviews would be placed onto a leaderboard.
-
-This project was my first experience working on a code-base with more than one other person. Because my group took the time to have daily stand-ups and took version-control seriously, we were able to delegate work efficiently and help each-other with problems.
+This project marked the first time I really collaborated on the same-code base with a group of people. The project cemented how useful good communication and clear-code can be when working with others. Our method of tracking issues and daily stand-ups really helped push the project forward at a great pace. Most importantly, everyone was able to creatively contribute to the project and felt that their voices were heard.

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: creativemornings.html#link_jump
+permalink: creativemornings.html
 image: assets/images/creative_mornings/creative_mornings2.png
 image2: assets/images/creative_mornings/creative_mornings1.png
 project_title: Creative Mornings Freelancer Award (Oak)
@@ -18,8 +18,8 @@ tech_links:
 - 'http://www.adobe.com/products/photoshop.html'
 ---
 
-CreativeMornings is a breakfast lecture series provided for creatives all around the planet. Oak developed and designed their huge online experience, which handles over 3000 vidoes in 15 languages and a custom administrative site.
+CreativeMornings is a breakfast lecture series provided for creatives all around the planet. Oak designed, developed, and maintains their online experience, which handles over 3000 videos in 15 languages and a custom administrative site.
 
-I was given the task of developing a site for CreativeMornings for a freelancer competition they were hosting. I used Oak's own SiteLeaf CMS to allow CM admins to alter content as they wished, and working on this site was a huge education in the importance of choosing the right CMS for a client.
+CreativeMornings threw a competition and wanted Oak to take their designs and build them into a website. As an intern, I was tasked with bringing CreativeMornings PSDs to life and to interpret them to be fully responsive.
 
-The project also taught me a great deal about detail-oriented design. Through the feed-back from the Oak team, I learned to identify specific padding, font-spacing, and other crucial details that I previously didn't consciously notice. I came out of building this website with a completely new outlook on what constitutes great design. Since the PSDs were static, I also learned a great deal about maintaining the intergrity of a design as the size of the browser changes between devices.
+Creating the site was an education in detail-driven design. I got great feedback from the Oak team and was pushed to measure each pixel to make sure my design maintained the integrity of the original PSDs. I also learned a ton about maintaining the essence of a design while it shifts through different sized devices. Working so hard on this project changed the way I look at websites and all design in general.

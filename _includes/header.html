@@ -1,27 +1,36 @@
 <div class="site_header">
   <div class="image_wrap">
-    <img class="site_header__image" src="assets/images/carl_burton.gif">
+    <a class="carl_wrap" href="http://carlburton.tumblr.com" target="_blank"></a>
   </div>
   <div class="site_header__text">
         Alan Rice is a programmer living in <span class="line-through">San Francisco</span> Brooklyn.
         He's passionate about all things design and front-end.
-        He's attended General Assembly and interned at Oak.
+        He attended <a class="header_ref" href="https://generalassemb.ly/new-york-city" target="_blank">General Assembly</a> and interned at <a class="header_ref" target="_blank" href="http://oak.is">Oak</a>. He currently works at <a class="header_ref" target="_blank" href="https://authorea.com">Authorea</a>.
   </div>
   <ul class="site_header__list">
-    {% if page.url != "/" %}
+
+    {% if page.url == "/" %}
+      <li class="site_header__nav-highlight"><a href="/" >Home</a></li><span>/</span>
+    {% else %}
       <li><a href="/">Home</a></li><span>/</span>
     {% endif %}
 
-    {% if page.url != "/about" %}
-      <li><a href="/about">About</a></li><span>/</span>
+    {% if page.url == "/about.html" %}
+      <li class="site_header__nav-highlight"><a href="/about.html" >About</a></li><span>/</span>
+    {% else %}
+      <li><a href="/about.html">About</a></li><span>/</span>
     {% endif %}
 
-    {% if page.url != "/contact" %}
-      <li><a href="/contact">Contact</a></li><span>/</span>
+    <li><a href="/assets/images/AlanRice_Resume.pdf" target="_blank">Resume</a></li><span>/</span>
+
+    {% if page.url == "/contact.html" %}
+      <li class="site_header__nav-highlight"><a href="/contact.html" >Contact</a></li><span>/</span>
+    {% else %}
+      <li><a href="/contact.html">Contact</a></li><span>/</span>
     {% endif %}
 
-    <li><a href="#">Github</a></li><span>/</span>
-    <li><a href="#">LinkedIn</a></li>
+    <li><a href="https://github.com/AlanRice93" target="_blank">Github</a></li><span>/</span>
+    <li><a href="https://www.linkedin.com/in/alanricecode" target="_blank">LinkedIn</a></li>
   </ul>
-  <div id="link_jump"></div>
+  <div id="link_jump" name="link_jump"></div>
 </div><!-- end of header -->

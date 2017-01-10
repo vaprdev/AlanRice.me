@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: spoton.html#link_jump
+permalink: spoton.html
 image: assets/images/spoton/spoton1.png
 image2: assets/images/spoton/spoton2.png
 project_title: SpotOn (GA)
@@ -25,8 +25,6 @@ tech_links:
 
 SpotOn was my final project at General Assembly. I was really excited to work on this project as I got to combine my passion for music with data-visualization. I loved the concept of writing everything in Javascript, so I decided to use the MEAN stack (Mongo, Express, Angular, Node) and D3.js for the visuals.
 
-The projects goal was to tackle the problem of finding new bands to enjoy. Often music-recommendations are pigeon-holed to specific genres, which doesn't allow someone with diverse musical interests to really discover new music.
+As a musician, I know that automated music-recommendations are usually less than stellar. With SpotOn I wanted to take a shot at making a more interactive and visual recommendation experience. Using the Spotify API and D3.js, the app uses node-based graphs to show related-artists based off what the user types in.
 
-I set out to build an app that'd allow users to input any artist they wanted and have D3.js visually represent 20 related artists (using Spotify's API). The user could then type in an infinite more amount of artists, and if artists shared any mutual 'similar artists', D3 would draw a link between them.
-
-The project really forced me to consider how to store data (specifically all of the arrays of related artists), and how to sort through them efficiently. I also learned a great deal about Javascripts threading. The code isn't perfect (especially the Angular) but it was a great introduction into the Mean Stack.
+The project really forced me to consider how to store data (specifically all of the arrays of related artists), and how to sort through them efficiently. The project was also a step forward in user-driven design for me, for example creating an auto-complete when the user types in artist. SpotOn showed me that I could bring my unique background into development and create something unique. 
