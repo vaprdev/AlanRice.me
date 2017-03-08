@@ -7,6 +7,15 @@ $arimo:'Arimo', sans-serif;
     margin-bottom: -2px;
 }
 
+* {
+  font-family: $play-fair;
+}
+
+
+
+body {
+  padding: 35px;
+}
 
 @import '_mixins';
 
@@ -131,4 +140,56 @@ $arimo:'Arimo', sans-serif;
 
 .site_header__nav-highlight {
   color: #aa9483;
+}
+
+#experience {
+  margin: 20px auto 33px auto;
+
+  .experience__title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .experience__job {
+    display: flex;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .job__company {
+    letter-spacing: 5px;
+    font-size: 13px;
+    margin-bottom: 7px;
+
+  }
+
+  .job__quote {
+    opacity:0.3;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 26px;
+    font-style: italic;
+  }
+
+  .job__description {
+    max-width: 400px;
+    margin: 28px auto 11px auto;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+  .job__tech {
+    .language {
+      font-family: $arimo;
+      text-transform: uppercase;
+      color: #aa9483;
+      text-decoration: underline;
+      font-size: 11px;
+      letter-spacing: 2px;
+    }
+
+    .slash {
+      color: #696969;
+    }
+  }
 }
