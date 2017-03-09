@@ -154,12 +154,15 @@ body {
     display: flex;
     max-width: 100%;
     text-align: center;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .job__company {
     letter-spacing: 5px;
     font-size: 13px;
     margin-bottom: 7px;
+    margin-top: 0;
 
   }
 
@@ -179,8 +182,14 @@ body {
   }
 
   .job__tech {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+
     .language {
-      font-family: $arimo;
+      padding: 0 5px;
       text-transform: uppercase;
       color: #aa9483;
       text-decoration: underline;
@@ -191,5 +200,9 @@ body {
     .slash {
       color: #696969;
     }
+  }
+
+  .job__img {
+    max-width: 400px;
   }
 }
