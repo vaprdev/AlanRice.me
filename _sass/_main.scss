@@ -3,8 +3,8 @@ $arimo:'Arimo', sans-serif;
 
 .authorea {
   height: 22px;
-    padding-top: 2px;
-    margin-bottom: -2px;
+  padding-top: 2px;
+  margin-bottom: -2px;
 }
 
 * {
@@ -56,10 +56,6 @@ body {
   opacity: 0.8;
 }
 
-
-
-
-
 .site_header__text {
   font-family: $play-fair;
   width: 60%;
@@ -69,77 +65,6 @@ body {
   font-size: 24px;
   color: #4d4d4d;
   line-height: 34px;
-
-  //--media queries --//
-  @include max-width(750px){
-    width: 75%;
-  }
-  @include max-width(500px){
-    width: 90%;
-  }
-
-}
-
-.site_header__list {
-  padding: 0 0 10px 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  display: block;
-  list-style-type: disc;
-  text-align: center;
-}
-
-.site_header__list li {
-  display: inline-block;
-  overflow: hidden;
-  max-width: 100%;
-  margin: 0 8px 5px 8px;
-  vertical-align: top;
-}
-
-.site_header__list li a{
-  text-decoration: none;
-  color: #4d4d4d;
-  letter-spacing: 2px;
-  font-size: 13px;
-  font-weight: bold;
-}
-
-.site_header__list li:after {
-    content: '';
-    display: block;
-    margin: auto;
-    height: 1px;
-    width: 0px;
-    background: transparent;
-    transition: background-color .5s ease, width .5s ease;
-    @include max-width(450px){
-      display: none;
-    }
-}
-
-.site_header__list li:hover:after {
-  width: 100%;
-  background: #aa9483;
-  // @include max-width(450px){
-  //   display:none;
-  // }
-}
-
-.site_header__list li.site_header__nav-highlight:after {
-  width: 100%;
-  background: #aa9483;
-}
-
-.site_header__list span {
-  display: inline-block;
-  vertical-align: middle;
-  color: rgba(159,159,159, 0.4);
-}
-
-
-.site_header__nav-highlight {
-  color: #aa9483;
 }
 
 #experience {
@@ -152,12 +77,28 @@ body {
 
   .experience__job {
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     text-align: center;
     align-items: center;
     justify-content: space-around;
     border-bottom: 1px solid #d3d3d3;
     padding: 42px 0;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    @media screen and (max-width: 972px){
+      flex-wrap: wrap;
+    }
+
+    .top {
+      order: 1;
+      min-width: 300px;
+    }
+    .bottom {
+      order: 2;
+      min-width: 300px;
+    }
+
+
   }
 
   .job__company {
@@ -202,6 +143,14 @@ body {
 
     .slash {
       color: #696969;
+    }
+  }
+
+  .job__left,
+  .job__right {
+    max-width: 50%;
+    img {
+      max-width: 80%;
     }
   }
 

@@ -7,36 +7,20 @@
         "_mixins",
         "_main";
 
-//-- elements --//
 html {
   box-sizing: border-box;
   margin: 0;
 }
 
-html, body {
-  height: 100%;
-  width: 100%;
-  display: table;
-}
-
-//
-// *{
-//   border: 1px solid red;
-// }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body, html {
-
-}
 
 body {
   border: 30px solid #fff;
   background: #f1f2ed;
   margin: 0;
-
 }
 
 .line-through {
