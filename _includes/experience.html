@@ -1,24 +1,22 @@
 <div id="experience">
     <p class="experience__title">Experience</p>
-    <div class="experience__job">
-      <div class="job__left top">
-        <p class="job__company">WEB DEVELOPER / AUTHOREA</p>
-        <p class="job__quote">"Authorea is used by over 65,000 researchers.Write, cite, collaborate, host data, and publish all in one place."</p>
-        <p class="job__description">I work across the stack developing new features for a real-time collaborative online document editor.
-        <div class="job__tech">
-          <span class="language">Ruby on Rails</span>
-          <span class="slash">/</span>
-          <span class="language">React</span>
-          <span class="slash">/</span>
-          <span class="language">Redux</span>
-          <span class="slash">/</span>
-          <span class="language">Sass</span>
+    {% for job in site.data.jobs %}
+      <div class="experience__job">
+        <div class="job__left top">
+          <p class="job__quote">{{job.quote}}</p>
+          <p class="job__description">{{ job.description }}</p>
+          <div class="job__tech">
+            {% for language in job.tech %}
+              <span class="language">{{language}}</span>
+            {% endfor %}
+          </div>
         </div>
-      </div>
       <div class="job__right bottom">
-        <a href="https://authorea.com" target="_blank"><img class="job__img" src="/assets/images/job--pic.png"/></a>
+        <p class="job__company">{{ job.role }} / {{ job.name }}</p>
+        <a href={{ job.link }} target="_blank"><img class="job__img" src={{ job.img }}/></a>
       </div>
     </div>
+{% endfor %}
 
     <div class="experience__job">
       <div class="job__right bottom">
@@ -31,9 +29,9 @@ Oak is an independent design-led product studio based in sunny Brooklyn, New Yor
         <p class="job__description">I built a client websites from scratch using Oak's in-house CMS Siteleaf. I added features and provided maintenance for WorkingNotWorking, a Webby-award winning freelancing site. </p>
         <div class="job__tech">
           <span class="language">Ruby on Rails</span>
-          <span class="slash">/</span>
+
           <span class="language">Siteleaf</span>
-          <span class="slash">/</span>
+
           <span class="language">Jekyll</span>
         </div>
       </div>

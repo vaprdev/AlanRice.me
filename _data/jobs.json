@@ -1,0 +1,11 @@
+[ {
+    "role": "web developer",
+    "name": "authorea",
+    "quote": "Authorea is used by over 65,000 researchers. Write, cite, collaborate,
+    host data, and publish all in one place",
+    "description": "I work across the stack developing new features for a real-time collaborative online document editor.",
+    "tech": ["Ruby on Rails", "React", "Redux", "Sass"],
+    "img": "/assets/images/job--pic.png",
+    "link": "https://authorea.com", 
+  },
+]

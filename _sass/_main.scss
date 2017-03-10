@@ -84,7 +84,6 @@ body {
     display: flex;
     max-width: 1200px;
     text-align: center;
-    align-items: center;
     justify-content: space-around;
 
     padding: 42px 0;
@@ -110,8 +109,8 @@ body {
   }
   .job__company {
     letter-spacing: 5px;
-    font-size: 13px;
-    margin-bottom: 7px;
+    font-size: 17px;
+    margin-bottom: 21px;
     margin-top: 0;
 
   }
@@ -145,10 +144,12 @@ body {
       padding: 0 5px;
       text-transform: uppercase;
       color: #aa9483;
-      text-decoration: underline;
-      font-size: 11px;
+      font-size: 14px;
       letter-spacing: 2px;
       white-space: nowrap;
+      border: 1px solid #aa9483;
+      padding: 5px;
+      margin: 3px;
     }
 
     .slash {
@@ -172,5 +173,7 @@ body {
 
   .job__img {
     max-width: 400px;
+box-shadow: 88px 108px 282px -65px rgba(32,32,32,1);
+
   }
 }
