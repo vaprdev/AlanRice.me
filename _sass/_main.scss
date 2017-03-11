@@ -1,73 +1,73 @@
+@import '_mixins';
+
 $play-fair: Playfair Display, serif;
 $arimo:'Arimo', sans-serif;
+$grayy: rgba(211, 211, 211, 1);
+$lightgray: rgba(211,211,211, 0.3);
 
-.authorea {
-  height: 22px;
-  padding-top: 2px;
-  margin-bottom: -2px;
-}
-
-* {
-  font-family: $play-fair;
-}
-
-
+* { font-family: $play-fair; }
 
 body {
-  padding: 35px;
+  padding: 0 35px;
   @media screen and (max-width: 500px){
     padding: 35px 10px;
   }
 }
 
-@import '_mixins';
-
-.site_header {
-  padding-bottom: 23px;
-  border-bottom: 1px dotted #d3d3d3;
+#header {
+  padding: 50px 0;
   max-width: 1100px;
-  margin: 20px auto 33px auto;
-}
+  margin: 0 -35px 33px -35px;
+  background: rgba(211, 211, 211, 0.3);
 
-.carl_wrap {
-  display: block;
-  width: 125px;
-  height: 125px;
-  background-image: url(/assets/images/beautiful.jpg);
-  margin: 0 auto;
-  background-size: 100%;
-  -webkit-filter: grayscale(100%);
-  border-radius: 100%;
-  transition: 0.2s;
-  &:hover {
-    -webkit-filter: grayscale(50%);
+  .header__authorea-img {
+    height: 22px;
+    padding-top: 2px;
+    margin-bottom: -2px;
   }
-}
-.header_ref {
-  text-decoration: underline;
-  color: #4d4d4d;
-}
-.site_header__image {
-  margin: 0 auto;
-  width: 130px;
-  height: 130px;
-  display: block;
-  border-radius: 100%;
-  border: 1px solid black;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  opacity: 0.8;
-}
 
-.site_header__text {
-  font-family: $play-fair;
-  margin: 0 auto;
-  padding: 25px 0;
-  text-align: center;
-  font-size: 24px;
-  color: #4d4d4d;
-  line-height: 34px;
-  max-width: 800px;
+  .header__slash {
+    color: rgba(105, 105, 105, 1);
+  }
+
+  .header__contact-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+    a {
+      letter-spacing: 2px;
+      font-size: 10px;
+      color: #aa9483;
+      margin: 0 5px;
+      font-size: 10px;
+      font-family: $arimo;
+      border-bottom: 1px solid rgba(105, 105, 105, 1);
+    }
+  }
+
+  .header__img-wrap {
+    border: 1px solid #202020;
+    display: block;
+    width: 125px;
+    height: 125px;
+    background-image: url(/assets/images/beautiful.jpg);
+    margin: 0 auto;
+    background-size: 100%;
+    border-radius: 100%;
+  }
+
+  .header__text {
+    font-family: $play-fair;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+    text-align: center;
+    font-size: 24px;
+    color: #4d4d4d;
+    line-height: 34px;
+    max-width: 800px;
+  }
 }
 
 #experience {
@@ -85,35 +85,33 @@ body {
     max-width: 1200px;
     text-align: center;
     justify-content: space-around;
-
     padding: 42px 0;
     margin: 0 auto;
     flex-wrap: nowrap;
     border-bottom: 1px solid #d3d3d3;
+
     @media screen and (max-width: 972px){
       flex-wrap: wrap;
     }
 
     @media screen and (max-width: 774px){
-          .top {
-            order: 0;
-            min-width: 300px;
-          }
-          .bottom {
-            order: 2;
-            min-width: 300px;
-          }
+      .top {
+        order: 0;
+        min-width: 300px;
+      }
+
+      .bottom {
+        order: 2;
+        min-width: 300px;
+      }
     }
-
-
-
   }
+
   .job__company {
     letter-spacing: 5px;
     font-size: 17px;
     margin-bottom: 21px;
     margin-top: 0;
-
   }
 
   .job__quote {
@@ -133,13 +131,11 @@ body {
 
   .job__tech {
     display: flex;
-    margin: 0 auto;
+    flex-wrap: wrap;
+    margin: 20px auto;
     align-items: center;
     justify-content: center;
     max-width: 400px;
-    @media screen and (max-width: 588px){
-      display: block;
-    }
 
     .language {
       padding: 0 5px;
@@ -151,10 +147,6 @@ body {
       border: 1px solid #aa9483;
       padding: 5px;
       margin: 3px;
-    }
-
-    .slash {
-      color: #696969;
     }
   }
 
@@ -174,8 +166,7 @@ body {
 
   .job__img {
     max-width: 400px;
-box-shadow: 88px 108px 282px -65px rgba(32,32,32,1);
-
+    box-shadow: 88px 108px 282px -65px rgba(32,32,32,1);
   }
 }
 
