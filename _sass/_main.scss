@@ -14,6 +14,14 @@ body {
   }
 }
 
+.underline {
+  border-bottom: 1px solid #4d4d4d;
+}
+
+.italic {
+  font-style: italic;
+}
+
 #header {
   padding: 50px 0;
   max-width: 1100px;
@@ -26,24 +34,44 @@ body {
     margin-bottom: -2px;
   }
 
+  .header__text--name {
+    color: #1573dd;
+  }
+
   .header__slash {
     color: rgba(105, 105, 105, 1);
   }
 
   .header__contact-container {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
+    margin: 16px auto;
 
-    a {
+    .contact__email {
+      font-family: $arimo;
+      font-size: 14px;
+      color: #000000;
+      letter-spacing: 0.5px;
+    }
+
+    div {
+      height: 26px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact__link {
+      text-decoration: none;
       letter-spacing: 2px;
       font-size: 10px;
       color: #aa9483;
       margin: 0 5px;
       font-size: 10px;
       font-family: $arimo;
-      border-bottom: 1px solid rgba(105, 105, 105, 1);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5)
+    }
+
+    .link--no-underline {
+      border-bottom: none;
     }
   }
 
@@ -61,7 +89,7 @@ body {
   .header__text {
     font-family: $play-fair;
     margin: 0 auto;
-    padding: 25px 0 0 0;
+    padding: 0;
     text-align: center;
     font-size: 24px;
     color: #4d4d4d;
