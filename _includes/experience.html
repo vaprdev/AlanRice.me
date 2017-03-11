@@ -1,8 +1,8 @@
 <div id="experience">
-    <p class="experience__title">Experience</p>
+    <p class="title">Experience</p>
     {% for job in site.data.jobs %}
       <div class="experience__job">
-        <div class="job__left top">
+        <div class="job__left bottom">
           <p class="job__quote">{{job.quote}}</p>
           <p class="job__description">{{ job.description }}</p>
           <div class="job__tech">
@@ -11,13 +11,13 @@
             {% endfor %}
           </div>
         </div>
-      <div class="job__right bottom">
+      <div class="job__right top">
         <p class="job__company">{{ job.role }} / {{ job.name }}</p>
         <a href={{ job.link }} target="_blank"><img class="job__img" src={{ job.img }}></a>
       </div>
     </div>
     {% if forloop.index == 2%}
-      <p class="experience__title">Education</p>
+      <p class="title">Education</p>
     {% endif %}
   {% endfor %}
 </div>
