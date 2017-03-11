@@ -16,5 +16,22 @@
     "tech": ["Ruby on Rails", "Siteleaf", "Jekyll"],
     "img": "/assets/images/oak.png",
     "link": "https://oak.is"
+  },
+  {
+    "role": "Web Developmentent Immersive",
+    "name": "General Assembly",
+    "quote": "From programming fundamentals to launching full-stack web apps, you'll learn to solve problems with code while applying industry best practices in a collaborative environment.",
+    "description": "Full-time 12 week course in web-development. Built several web applications from scratch across different stacks using Agile and Version Control.",
+    "tech": ["Ruby on Rails", "Angular", "MongoDB", "Sinatra", "Node"],
+    "img": "/assets/images/ga.png",
+    "link": "https://generalassemb.ly"
+  },
+  {
+    "role": "Bachelor\'s in Jazz Studies",
+    "name": "NYU",
+    "quote": "NYU Jazz provides aspiring students advanced performance training combined with the finest related academic and music courses designed to encourage entrepreneurship.",
+    "description": "Completed 4 year undergraduated music performance program. Took several additonal programming courses in the CS department.",
+    "img": "/assets/images/nyu.png",
+    "link": "https://nyu.edu",
   }
 ]

@@ -16,5 +16,8 @@
         <a href={{ job.link }} target="_blank"><img class="job__img" src={{ job.img }}/></a>
       </div>
     </div>
+    {% if forloop.index == 2%}
+      <p class="experience__title">Education</p>
+    {% endif %}
   {% endfor %}
 </div>
