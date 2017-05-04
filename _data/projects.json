@@ -1,7 +1,7 @@
 [{
   "name": "HackerNews Bot",
   "link": "https://github.com/AlanRice93/hacker_news_slack_bot",
-  "description": "Slackbot written in the Rust framework Iron. Uses node to monitor Slack channels and scrapes HackerNews and returns the top 5 llinks whenever HackerNews is mentioned. Second project completed in Rust.",
+  "description": "Slackbot written in the Rust framework Iron. Uses node to monitor Slack channels and scrapes HackerNews and returns the top 5 links whenever HackerNews is mentioned. Second project completed in Rust.",
   "languages": ["Rust", "Iron", "Node", "Axios", "Express"],
 }, {
   "name": "Zot",
