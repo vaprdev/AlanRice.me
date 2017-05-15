@@ -1,12 +1,9 @@
 [{
   "role": "Web Developer",
-  "name": "AUTHOREA",
-  "quote": "Authorea is used by over 65,000 researchers. Write, cite, collaborate,
-  host data,
-  and publish all in one place ",
+  "name": "Authorea",
+  "date": "8.20.2016 - present",
   "description": "I work across the stack developing new features for a real-time collaborative online document editor.",
   "tech": ["Ruby on Rails", "React", "Redux", "Sass"],
-  "img": "/assets/images/job--pic.png",
   "link": "https://authorea.com",
 }, {
   "role": "Web Development Intern",

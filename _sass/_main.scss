@@ -12,7 +12,7 @@ body {
   padding: 20px;
 }
 
-p {
+div {
   color: $contrast;
 }
 
@@ -22,9 +22,40 @@ span {
 
 
 .header__title {
-  @include large-font;
+  @include margin_bottom--big;
 }
 
 .underline {
   @include underline($highlight);
+}
+
+.large-font {
+  @include large-font;
+}
+
+.medium-font {
+  @include medium-font;
+}
+
+.small-font {
+  @include small-font;
+}
+
+.margin-bottom--medium {
+  @include margin-bottom--medium;
+}
+
+.margin-bottom--small {
+  @include margin-bottom--small;
+}
+
+.line-break {
+  background: #cdffcc;
+  height: 3px;
+  width: 15px;
+  margin: 10px 0;
+}
+
+.experience__container {
+  max-width: 532px;
 }

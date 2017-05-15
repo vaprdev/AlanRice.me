@@ -18,7 +18,27 @@ $contrast: #fbeccf;
   font-size: 43px;
 }
 
+@mixin medium-font {
+  font-size: 25px;
+}
+
+@mixin small-font {
+  font-size: 14px;
+}
+
 @mixin underline($color){
   border-bottom: 2px solid $color;
   padding-bottom: 2px;
+}
+
+@mixin margin_bottom--big {
+  margin-bottom: 100px;
+}
+
+@mixin margin-bottom--medium {
+  margin-bottom: 66px;
+}
+
+@mixin margin-bottom--small {
+  margin-bottom: 15px;
 }
