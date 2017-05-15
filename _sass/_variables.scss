@@ -2,18 +2,6 @@ $bg: #112378;
 $highlight: #cdffcc;
 $contrast: #fbeccf;
 
-.contrast {
-  color: $contrast;
-}
-
-.background {
-  background: $bg;
-}
-
-.highlight {
-  color: $highlight;
-}
-
 @mixin large-font {
   font-size: 43px;
 }
@@ -41,4 +29,16 @@ $contrast: #fbeccf;
 
 @mixin margin-bottom--small {
   margin-bottom: 15px;
+}
+
+.contrast {
+  color: $contrast;
+}
+
+.background {
+  background: $bg;
+}
+
+.highlight {
+  color: $highlight;
 }

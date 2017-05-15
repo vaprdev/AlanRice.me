@@ -1,14 +1,14 @@
 <div id="experience">
-    <p class="experience__title large-font margin-bottom--small">Experience</p>
+    <p class="experience__title small-font margin-bottom--small underline--contrast inline-block">Experience</p>
     {% for job in site.data.jobs %}
       <div class="experience__container margin-bottom--medium">
-        <div class="job__company medium-font">{{ job.role }} / {{ job.name }}</div>
+        <div class="job__company medium-font highlight">{{ job.role }} / {{ job.name }}</div>
         <div class="job__date small-font">{{ job.date }}</div>
         <div class="line-break"></div>
-        <p class="job__description small-font">{{ job.description }}</p>
+        <p class="job__description small-font margin-bottom--small">{{ job.description }}</p>
         <div class="job__tech">
           {% for language in job.tech %}
-            <span class="language small-font">{{language}}</span>
+            <div class="language small-font highlight">{{language}}</div>
           {% endfor %}
          </div>
         <a href={{ job.link }} target="_blank"><img class="job__img" src={{ job.img }}></a>

@@ -25,8 +25,12 @@ span {
   @include margin_bottom--big;
 }
 
-.underline {
+.underline--hightlight {
   @include underline($highlight);
+}
+
+.underline--contrast {
+  @include underline($contrast);
 }
 
 .large-font {
@@ -39,6 +43,7 @@ span {
 
 .small-font {
   @include small-font;
+  line-height:25px;
 }
 
 .margin-bottom--medium {
@@ -58,4 +63,20 @@ span {
 
 .experience__container {
   max-width: 532px;
+}
+
+.contrast {
+  color: $contrast;
+}
+
+.background {
+  background: $bg;
+}
+
+.highlight {
+  color: $highlight;
+}
+
+.inline-block {
+  display: inline-block;
 }
