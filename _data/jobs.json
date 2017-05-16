@@ -33,7 +33,7 @@
 }, {
   "name": "Zot",
   "link": "https://github.com/AlanRice93/zot",
-  "description": "Slackbot written in Node. Uses axios to make any Api requests. Example actions include a Spotify song player and word alert system. Additional actions can be easily added.",
+  "description": "Slackbot written in Node. Example actions include a Spotify song player and word alert system. Additional actions can be easily added.",
   "tech": ["Node", "Axios", "Express"],
 }, {
   "name": "SpotOn",
