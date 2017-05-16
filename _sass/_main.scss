@@ -4,12 +4,15 @@
   font-family: 'Roboto Mono', monospace;
   letter-spacing: 0.5px;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
 }
 
 body {
   background: $bg;
   border: 20px solid white;
   padding: 20px;
+  cursor: url(assets/images/logo.png);
 }
 
 div {
@@ -18,11 +21,6 @@ div {
 
 span {
   color: $highlight;
-}
-
-
-.header__title {
-  @include margin_bottom--big;
 }
 
 .underline--hightlight {
@@ -44,6 +42,10 @@ span {
 .small-font {
   @include small-font;
   line-height:25px;
+}
+
+.margin-bottom--big {
+  @include margin-bottom--big;
 }
 
 .margin-bottom--medium {
@@ -79,4 +81,8 @@ span {
 
 .inline-block {
   display: inline-block;
+}
+
+.contact_group {
+  display: flex;
 }

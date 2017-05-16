@@ -7,25 +7,37 @@
   "link": "https://authorea.com",
 }, {
   "role": "Web Development Intern",
-  "name": "OAK",
-  "quote": "Oak is an independent design-led product studio based in sunny Brooklyn, New York. We make creative products like Dropmark and Sitelaf, and work on a number of other ventures.",
+  "name": "Oak",
   "description": "I built client websites from scratch using Oak's in-house CMS Siteleaf. Also added additional features to WorkingNotWorkng, a Webby-award-winning freelancing site.",
   "tech": ["Ruby on Rails", "Siteleaf", "Jekyll"],
-  "img": "/assets/images/oak.png",
-  "link": "https://oak.is"
+  "link": "https://oak.is",
+  "date": "2.15.2016 - 5.15.2016"
 }, {
   "role": "Web Developmentent Immersive",
-  "name": "GENERAL ASSEMBLY",
-  "quote": "From programming fundamentals to launching full-stack web apps, you'll learn to solve problems with code while applying industry best practices in a collaborative environment.",
+  "name": "General Assembly",
   "description": "Full-time 12 week course in web-development. Built several web applications from scratch across different stacks using Agile and Version Control.",
   "tech": ["Ruby on Rails", "Angular", "MongoDB", "Sinatra", "Node"],
-  "img": "/assets/images/ga.png",
-  "link": "https://generalassemb.ly"
+  "link": "https://generalassemb.ly",
+  "date": "7.15.2015 - 10.20.2015"
 }, {
-  "role": "Bachelor\'s in Jazz Studies",
+  "role": "Bachelor\'s in Music",
   "name": "NYU",
   "quote": "NYU Jazz provides aspiring students advanced performance training combined with the finest related academic and music courses designed to encourage entrepreneurship.",
   "description": "Completed 4 year undergraduate music performance program. Took several additional programming courses in the CS department.",
-  "img": "/assets/images/nyu.png",
   "link": "https://nyu.edu",
+}, {
+  "name": "HackerNews Bot",
+  "link": "https://github.com/AlanRice93/hacker_news_slack_bot",
+  "description": "Slackbot written in the Rust framework Iron. Uses node to monitor Slack channels and scrapes HackerNews and returns the top 5 links whenever HackerNews is mentioned. Second project completed in Rust.",
+  "tech": ["Rust", "Iron", "Node", "Axios", "Express"],
+}, {
+  "name": "Zot",
+  "link": "https://github.com/AlanRice93/zot",
+  "description": "Slackbot written in Node. Uses axios to make any Api requests. Example actions include a Spotify song player and word alert system. Additional actions can be easily added.",
+  "tech": ["Node", "Axios", "Express"],
+}, {
+  "name": "SpotOn",
+  "link": "https://github.com/AlanRice93/SpotOn",
+  "description": "Final project at General Assembly, written using JS from the front to the back (MEAN Stack). Visually represents connections between artists on Spotify using D3.js",
+  "tech": ["Node", "Angular", "MongoDB", "Express"],
 }]
