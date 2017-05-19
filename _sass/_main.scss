@@ -76,6 +76,7 @@ a {
 }
 
 .experience__title {
+  margin-top: 30px;
 }
 
 .contrast {
@@ -100,4 +101,29 @@ a {
 
 .header {
   max-width: 900px;
+}
+
+.header__my-head {
+  width: 29px;
+      top: 3px;
+      position: absolute;
+      left: 11px;
+      bottom: 47px;
+  -webkit-animation: spin1 2s infinite linear;
+  -moz-animation: spin1 2s infinite linear;
+  -o-animation: spin1 2s infinite linear;
+  -ms-animation: spin1 2s infinite linear;
+  animation: spin1 2s infinite linear;
+}
+
+@-webkit-keyframes spin1 {
+0% { -webkit-transform: rotate(0deg);}
+100% { -webkit-transform: rotate(360deg);}
+}
+
+.header__title {
+  div {
+    display: inline;
+    position: relative;
+  }
 }
