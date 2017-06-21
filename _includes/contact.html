@@ -1,9 +1,9 @@
 <div class="margin-bottom--medium">
   {% for contact in site.data.contacts %}
     {% if forloop.index == 1 %}
-      <p class="experience__title small-font margin-bottom--small underline--contrast inline-block">Contact</p>
+      <p class="header small-font margin-bottom--small underline--contrast inline-block">Contact</p>
     {% elsif forloop.index == 3 %}
-      <p class="experience__title small-font margin-bottom--small underline--contrast inline-block">Find Me</p>
+      <p class="header small-font margin-bottom--small underline--contrast inline-block">Find Me</p>
     {% endif %}
     <div class="contact_group">
       <div class="name small-font">{{contact.name}}</div>

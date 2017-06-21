@@ -1,8 +1,103 @@
+--- 
 ---
----
-/**{border: 1px solid red;}*/
 
-//--- import statements --//
-@import
-        "_reset",
-        "_main";
+// fonts 
+$roboto: 'Roboto Mono', monospace;
+
+// font sizes 
+$font--large: 42px;
+$font--small: 14px;
+
+// letterspacing
+$letter-spacing: 0.5;
+
+// font-smoothing
+$antialias: antialiased;
+
+// font-weights
+$font-weight--thick: 500;
+
+// colors 
+$color--contrast: #fbeccf;
+$color--highlight: #cdffcc;
+$color--background: rgb(0, 35, 120);
+
+
+// padding
+$padding--large: 20px;
+$padding--small: 6px;
+
+// borders
+$border--large-white: 20px solid white;
+
+// margins 
+$margin--none: 0px;
+$margin--small: 15px;
+$margin--medium: 30px;
+
+// mixins
+@-webkit-keyframes spin1 {
+    0% { -webkit-transform: rotate(0deg);}
+    100% { -webkit-transform: rotate(360deg);}
+}
+
+@mixin spin {
+   -webkit-animation: spin1 2s infinite linear;
+  -moz-animation: spin1 2s infinite linear;
+  -o-animation: spin1 2s infinite linear;
+  -ms-animation: spin1 2s infinite linear;
+  animation: spin1 2s infinite linear;
+}
+
+@mixin font-presets {
+    font-family: $roboto;
+    letter-spacing: $letter-spacing;
+    -webkit-font-smoothing: $antialias;
+}
+
+// elements
+
+body {
+    background-color: $color--background;
+    padding: $padding--large;
+    border: $border--large-white;
+    margin: $margin--none;
+}
+
+.title {
+    @include font-presets;
+    display: inline;
+    position: relative;
+    font-size: $font--large;
+    font-weight: $font-weight--thick;
+    color: $color--contrast;
+}
+
+.highlight {
+    color: $color--highlight;
+}
+
+.inline-img-container {
+    display: inline;
+    position: relative;
+}
+
+.inline-img {
+    @include spin;
+    position: absolute;
+    left: 13px;
+    width: 29px;
+    top: 6px;
+}
+
+.header {
+    @include font-presets;
+    margin-top: $margin--medium;
+    margin-bottom: $margin--small;
+    font-size: $font--small;
+    color: $color--contrast;
+    font-weight: $font-weight--thick;
+    border-bottom: 2px solid $color--contrast;
+    display: inline-block;
+    padding-bottom: $padding--small;
+}
