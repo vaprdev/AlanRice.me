@@ -1,30 +1,19 @@
-<div id="experience">
+<div>
+    <p class="text--header">Experience</p>
+    
     {% for job in site.data.jobs %}
-        <p class="header margin-bottom--small underline--contrast inline-block">
-            {% if forloop.index == 1 %}
-                Experience
-            {% elsif forloop.index == 3 %}
-                Education
-            {% elsif forloop.index == 5 %}
-                Side Projects
-            {% endif %}
-        </p>
-        <div class="experience__container margin-bottom--medium">
-        <a href={{ job.link}} class="job__company medium-font highlight">
-          {% if job.role %}
-            {{ job.role }} /
-          {% endif %}
-
-          {{ job.name }}
-        </a>
-        <div class="job__date small-font">{{ job.date }}</div>
-        <div class="line-break"></div>
-        <p class="job__description small-font margin-bottom--small">{{ job.description }}</p>
-        <div class="job__tech">
+        <div class="container">
+            <a href={{ job.link}} class="text--subheader">
+                {{ job.role }} / {{ job.name }}
+            </a>
+            
+            <div class="text--body">{{ job.date }}</div>
+            <div class="highlight-dash"></div>
+            <p class="text--body">{{ job.description }}</p>
+        
           {% for language in job.tech %}
-            <div class="language small-font highlight">{{language}}</div>
+            <p class="text--highlight list-item">{{language}}</p>
           {% endfor %}
-         </div>
-      </div>
-    {% endfor %}
+        </div>
+     {% endfor %}
 </div>

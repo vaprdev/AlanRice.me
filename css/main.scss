@@ -6,6 +6,7 @@ $roboto: 'Roboto Mono', monospace;
 
 // font sizes 
 $font--large: 42px;
+$font--medium: 25px;
 $font--small: 14px;
 
 // letterspacing
@@ -32,8 +33,11 @@ $border--large-white: 20px solid white;
 
 // margins 
 $margin--none: 0px;
-$margin--small: 15px;
-$margin--medium: 30px;
+$margin--tiny: 5px;
+$margin--small: 10px;
+$margin--medium: 15px;
+$margin--large: 30px;
+$margin--huge: 60px;
 
 // mixins
 @-webkit-keyframes spin1 {
@@ -53,15 +57,20 @@ $margin--medium: 30px;
     font-family: $roboto;
     letter-spacing: $letter-spacing;
     -webkit-font-smoothing: $antialias;
+    font-weight: $font-weight--thick;
 }
 
 // elements
-
 body {
     background-color: $color--background;
     padding: $padding--large;
     border: $border--large-white;
     margin: $margin--none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
 }
 
 .title {
@@ -82,6 +91,11 @@ body {
     position: relative;
 }
 
+.container {
+    max-width: 532px;
+    margin-bottom: $margin--huge;
+}
+
 .inline-img {
     @include spin;
     position: absolute;
@@ -90,14 +104,55 @@ body {
     top: 6px;
 }
 
-.header {
+.text--header {
     @include font-presets;
-    margin-top: $margin--medium;
-    margin-bottom: $margin--small;
+    margin-top: $margin--huge;
     font-size: $font--small;
     color: $color--contrast;
     font-weight: $font-weight--thick;
     border-bottom: 2px solid $color--contrast;
     display: inline-block;
     padding-bottom: $padding--small;
+    margin-bottom: $margin--small;
+}
+
+.text--subheader {
+    @include font-presets;
+    font-size: $font--medium;
+    color: $color--highlight;
+    margin-bottom: $margin--small;
+}
+
+.text--body {
+    @include font-presets;
+    color: $color--contrast;
+    font-weight: $font-weight--thick;
+    font-size: $font--small;
+    line-height: 25px;
+}
+
+.text--highlight {
+    @include font-presets;
+    color: $color--highlight;  
+    font-size: $font--small;      
+}
+
+.text--body__link {
+    transition: all 0.2s;    
+    
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.list-item {
+    display: flex;
+    margin-bottom: $margin--small;
+}
+
+.highlight-dash {
+  background: $color--highlight;
+  height: 2px;
+  width: $margin--small;
+  margin: $margin--small 0;
 }

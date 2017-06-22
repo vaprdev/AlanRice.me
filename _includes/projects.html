@@ -1,0 +1,18 @@
+<div class="container">
+    <p class="text--header">Education</p>
+    {% for project in site.data.projects %}
+        <div class="container">
+            <a class="text--subheader" href={{ project.link}} >
+                {{ project.name }}
+            </a>
+        
+            <div class="text--body">{{ project.date }}</div>
+            <div class="highlight-dash"></div>
+            <p class="text--body">{{ project.description }}</p>
+
+            {% for language in project.tech %}
+                <p class="text--highlight list-item">{{language}}</p>
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>

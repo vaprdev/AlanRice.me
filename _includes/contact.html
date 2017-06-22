@@ -1,14 +1,25 @@
-<div class="margin-bottom--medium">
-  {% for contact in site.data.contacts %}
-    {% if forloop.index == 1 %}
-      <p class="header small-font margin-bottom--small underline--contrast inline-block">Contact</p>
-    {% elsif forloop.index == 3 %}
-      <p class="header small-font margin-bottom--small underline--contrast inline-block">Find Me</p>
-    {% endif %}
-    <div class="contact_group">
-      <div class="name small-font">{{contact.name}}</div>
-      <div class="small-font">&nbsp;-&nbsp;</div>
-      <a href={{ contact.link }} target="_blank" class="highlight small-font">{{contact.display}}</a>
-    </div>
-  {% endfor %}
+<div>
+    <p class="text--header">Contact</p>
+    
+    {% for contact in site.data.contacts %}
+        {% if forloop.index < 3 %}
+            <div class="list-item">
+                <div class="text--body">{{contact.name}}</div>
+                <div class="text--body">&nbsp;-&nbsp;</div>
+                <a href={{ contact.link }} target="_blank" class="text--highlight text--link">{{contact.display}}</a>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    <p class="text--header">Find Me</p>
+    
+    {% for contact in site.data.contacts %}
+        {% if forloop.index >= 3 %}
+            <div class="list-item">
+                <div class="text--body">{{contact.name}}</div>
+                <div class="text--body">&nbsp;-&nbsp;</div>
+                <a href={{ contact.link }} target="_blank" class="text--highlight text--link">{{contact.display}}</a>
+            </div>
+        {% endif %}
+    {% endfor %}
 </div>
