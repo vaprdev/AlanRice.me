@@ -1,5 +1,13 @@
 ---
-layout: layout 
+layout: layout
 ---
 
-<h1>blog</h1>
+<p class="title">Blog</p>
+
+<div>
+    {% for post in site.posts %}
+        <a class="list-item" href={{ post.url }}>
+            {{ post.title }}
+        </a>
+    {% endfor %}
+</div>
