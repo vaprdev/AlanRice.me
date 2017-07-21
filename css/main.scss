@@ -176,6 +176,8 @@ a {
 
 .text--link {
     @include text-hover;
+    display: flex;
+    align-items: center;
 }
 
 .list-item {
