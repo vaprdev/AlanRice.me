@@ -5,17 +5,9 @@
 }, {
   "name": "Github",
   "display": "github.com/AlanRice93",
-  "link": "https://github.com/AlanRice93",
+  "link": "https://github.com/AlanRice93"
 }, {
-  "name": "Instagram",
-  "display": "instagram.com/aricedrums",
-  "link": "https://www.instagram.com/aricedrums/"
-}, {
-  "name": "Twitter",
-  "display": "twitter.com/AlanRice93",
-  "link": "https://twitter.com/AlanRice93",
-}, {
-  "name": "Facebook",
-  "display": "facebook.com/alan.rice.3348",
-  "link": "https://www.facebook.com/alan.rice.3348"
+	"name": "LinkedIn",
+	"display": "linkedin.com/in/alanricecode",
+	"link": "https://www.linkedin.com/in/alanricecode/"
 }]

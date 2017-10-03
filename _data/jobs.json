@@ -1,14 +1,22 @@
 [{
+	"role": "Junior Software Engineer", 
+	"name": "Ride Health", 
+	"date": "9.05.2017 - present", 
+	"description": "Ride Health improves access to care for the 3.6 million low-income, elderly and disabled patients who face transportation barriers. Missed appointments cause billions in lost revenue for providers, lower health status for patients, and high downstream costs for payers. Ride Health improves patients' and coordinators' experiences, reduces no-shows and delayed discharges, and avoids hospital visits through improved engagement and compliance.", 
+	"tech": ["Elixir", "React"], 
+	"link": "http://ride-health.com" 
+}, 
+	{
   "role": "Web Developer",
   "name": "Authorea",
-  "date": "8.20.2016 - present",
-  "description": "I work across the stack developing new features for a real-time collaborative online document editor.",
-  "tech": ["Ruby on Rails", "React", "Redux", "Sass"],
-  "link": "https://authorea.com",
+  "date": "8.20.2016 - 8.29.2017",
+  "description": "Authorea is a web-native platform for writing technical documents collaboratively. Every document you create becomes a beautiful web-page which you can choose to share with your coauthors and the public.",
+  "tech": ["Ruby on Rails", "React + Redux", "Sass"],
+  "link": "https://authorea.com"
 }, {
   "role": "Web Development Intern",
   "name": "Oak",
-  "description": "I built client websites from scratch using Oak's in-house CMS Siteleaf. Also added additional features to WorkingNotWorkng, a Webby-award-winning freelancing site.",
+  "description": "Oak is an independent design-led product studio based in cloudy Brooklyn, New York. We make creative products like Dropmark and Siteleaf, and work on a number of other ventures.",
   "tech": ["Ruby on Rails", "Siteleaf", "Jekyll"],
   "link": "https://oak.is",
   "date": "2.15.2016 - 5.15.2016"
