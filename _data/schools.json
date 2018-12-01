@@ -1,14 +1,23 @@
- [{
-  "role": "Web Developmentent Immersive",
-  "name": "General Assembly",
-  "description": "Full-time 12 week course in web-development. Built several web applications from scratch across different stacks using Agile and Version Control.",
-  "tech": ["Ruby on Rails", "Angular", "MongoDB", "Sinatra", "Node"],
-  "link": "https://generalassemb.ly",
-  "date": "7.15.2015 - 10.20.2015"
-}, {
-  "role": "Bachelor\'s in Music",
-  "name": "NYU",
-  "quote": "NYU Jazz provides aspiring students advanced performance training combined with the finest related academic and music courses designed to encourage entrepreneurship.",
-  "description": "Completed 4 year undergraduate music performance program. Took several additional programming courses in the CS department.",
-  "link": "https://nyu.edu",
-}]
+[
+  {
+    "role": "Web Developmentent Immersive",
+    "name": "General Assembly",
+    "description": "Full-time 12 week course in web-development. Built several web applications from scratch across different stacks using Agile and Version Control.",
+    "tech": [
+      "Ruby on Rails",
+      "Angular",
+      "MongoDB",
+      "Sinatra",
+      "Node"
+    ],
+    "link": "https://generalassemb.ly",
+    "date": "7.15.2015 - 10.20.2015"
+  },
+  {
+    "role": "Bachelor's in Music",
+    "name": "NYU",
+    "quote": "NYU Jazz provides aspiring students advanced performance training combined with the finest related academic and music courses designed to encourage entrepreneurship.",
+    "description": "Completed 4 year undergraduate music performance program. Took several additional programming courses in the CS department.",
+    "link": "https://nyu.edu",
+  }
+]
