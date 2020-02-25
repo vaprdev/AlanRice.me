@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "bundler exec jekyll build"
+        "build": "bundler exec jekyll build && bundler exec jekyll serve"
     },
     "repository": {
         "type": "git",
