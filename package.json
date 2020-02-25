@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "build": "jekyll build && mv _site public && jekyll serve"
+    },
+    "devDependencies": {
+        "jekyll": "^3.0.0-beta1"
+    }
+}
