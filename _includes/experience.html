@@ -1,19 +1,43 @@
 <div>
-    <p class="text--header">Experience</p>
-    
-    {% for job in site.data.jobs %}
-        <div class="container">
-            <a href={{ job.link}} class="text--subheader">
-                {{ job.role }} / {{ job.name }}
-            </a>
-            
-            <div class="text--body">{{ job.date }}</div>
-            <div class="highlight-dash"></div>
-            <p class="text--body">{{ job.description }}</p>
-        
-          {% for language in job.tech %}
-            <p class="text--highlight unordered-list-item">{{language}}</p>
-          {% endfor %}
+    <p class="white size-4 border-b2">Experience</p>
+
+    {% for job in site.data.info.jobs %}
+    <div class="mgn-b8">
+        <div class="flex align-base green size-8 mgn-b2 wrap">
+            <span class="size-8 mgn-b2">{{ job.name }}</span>
+            <span class="mgn-l2 mgn-r2">-</span>
+            <span class="size-6 white mgn-b2">{{ job.role }}</span>
         </div>
-     {% endfor %}
+        <div class="white size-4">{{ job.date }}</div>
+        <div class="mgn-t4 mgn-b4 highlight-dash">-</div>
+
+        {% for highlight in job.highlights %}
+        <p class="white size-4">&bull;&nbsp;{{ highlight }}</p>
+        {% endfor %}
+        <Container class="flex wrap">
+            {% for language in job.tech %}
+            <p class="green size-4 mgn-r8 border">{{language}}</p>
+            {% endfor %}
+        </Container>
+    </div>
+    {% endfor %}
 </div>
+
+<p class="white size-4 border-b2">Education</p>
+{% for school in site.data.info.schooling %}
+<div class="mgn-b8">
+    <div class="flex align-base green size-8 mgn-b2 wrap">
+        <span class="size-8 mgn-b2">{{ school.name }}</span>
+        <span class="mgn-l2 mgn-r2">-</span>
+        <span class="size-6 white mgn-b2">{{ school.role }}</span>
+    </div>
+
+    <p class="white size-4">{{ school.description }}</p>
+
+    <Container class="flex wrap">
+        {% for language in school.tech %}
+        <p class="green size-4 mgn-r8 border">{{language}}</p>
+        {% endfor %}
+    </Container>
+</div>
+{% endfor %}
