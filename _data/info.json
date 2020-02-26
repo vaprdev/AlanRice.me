@@ -5,40 +5,50 @@
             "name": "Ride Health",
             "date": "9.05.2017 - present",
             "description": "Ride Health improves access to care for the 3.6 million low-income, elderly and disabled patients who face transportation barriers. Missed appointments cause billions in lost revenue for providers, lower health status for patients, and high downstream costs for payers. Ride Health improves patients' and coordinators' experiences, reduces no-shows and delayed discharges, and avoids hospital visits through improved engagement and compliance.",
-            "tech": ["Elixir", "React"],
+            "tech": ["Elixir", "React", "Typescript", "NOSQL", "GCP", "Twilio"],
             "link": "http://ride-health.com",
             "highlights": [
                 "Second hire at company that scaled from $0 to $15M and from 3 to 25+ employees.",
                 "Won contracts with a four person engineering team going head-to-head against competitors with substantially more capital and engineering overhead.",
                 "Built an automated voice system that reduced inbound customer support phones calls 80%. The system exposes product functionality and real-time ride information to patients in sixteen different languages.",
                 "Delivered a higher level of service to patients by innovating tech solutions for transportation providers. Products include an sms-based system allowing drivers to update their trips statuses and locations in real-time."
-            ]
+            ],
+            "location": "New York"
         },
         {
             "role": "Web Developer",
             "name": "Authorea",
             "date": "8.20.2016 - 8.29.2017",
             "description": "Authorea is a web-native platform for writing technical documents collaboratively. Every document you create becomes a beautiful web-page which you can choose to share with your coauthors and the public.",
-            "tech": ["Ruby on Rails", "React + Redux", "Sass"],
+            "tech": ["Ruby", "Rails", "Redux", "React", "Sass/CSS", "HTML"],
             "link": "https://authorea.com",
             "highlights": [
                 "Sole developer responsible for implementing UI updates to the core product and associated landing pages.",
                 "Built and deployed a complete rewrite of the company’s landing page in the first three weeks of employment, developing it from a boilerplate template to a fully customized page.",
                 "Developed features across the stack, including custom onboarding flows and stripe payment systems."
-            ]
+            ],
+            "location": "New York"
         },
         {
             "role": "Web Development Intern",
-            "name": "Oak",
+            "name": "Oak Studios",
             "description": "Oak is an independent design-led product studio based in cloudy Brooklyn, New York. We make creative products like Dropmark and Siteleaf, and work on a number of other ventures.",
-            "tech": ["Ruby on Rails", "Siteleaf", "Jekyll"],
+            "tech": [
+                "Ruby",
+                "Rails",
+                "Jekyll",
+                "Javascript",
+                "HTML",
+                "SASS/CSS"
+            ],
             "link": "https://oak.is",
             "date": "2.15.2016 - 5.15.2016",
             "highlights": [
                 "Built and deployed client website from scratch in under a month and integrated with a CMS allowing the customer to update website content at will.",
                 "Dug into complex and long-standing client code-bases to find and fix bugs, including WorkingNotWorking.com.",
                 "Adhered to Oak’s internal design systems and code style-guides for all features. Participated in frequent code feedback and review sessions."
-            ]
+            ],
+            "location": "New York"
         }
     ],
     "schooling": [
