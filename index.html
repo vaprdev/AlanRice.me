@@ -2,7 +2,7 @@
 layout: layout
 ---
 
-<div class="tracking-wide text-xl">
+<div class="tracking-wide text-xl p-8 bg-black text-white">
     <div class="text-4xl bg-black p-8 text-white montserrat tracking-wide">
         <div class="text-6xl font-extrabold text-red-500">Alan Rice</div>
         <div class="max-w-3xl">
@@ -11,21 +11,21 @@ layout: layout
             New York focused on building products from the ground up on small teams. I love leveraging technology to make people and systems more efficient.
         </div>
     </div>
-    <div class="border-white pl-8 pt-8 pr-8 pb-8" style="background: #F1F1F1; color: #292A2C;">
-        <p class="text-sm uppercase font-extrabold text-gray-600 tracking-widest">Experience</p>
+    <div class="border-white pl-8 pt-8 pr-8 pb-8">
+        <p class="uppercase font-extrabold text-yellow-500 tracking-widest mt-8">Experience</p>
         {% for job in site.data.info.jobs %}
             <div class="mb-4 pb-4">
                 <div class="flex flex-wrap text-4xl items-baseline fg-white montserrat mb-1">
-                    <div class="montserrat text-blue-600">{{ job.name }}</div>
+                    <div class="montserrat text-red-500">{{ job.name }}</div>
                     <div class="mx-4">|</div>
                     <div class="montserrat">{{ job.role }}</div>
                 </div>
                 <div class="flex text-xl mb-4">
                     <div class="fg-white">{{ job.date }}</div>
                     <div class="fg-white mx-2">|</div>
-                    <a class="text-blue-500 underline font-medium">{{job.link}}</a>
-                    <div class="fg-white mx-2">|</div>
                     <div class="fg-white mx-2">New York, NY</div>
+                    <div class="fg-white mx-2">|</div>
+                    <a class="text-blue-500 font-medium">{{job.link}}</a>
                 </div>
                 <!-- <div class="text-4xl">-</div> -->
 
@@ -51,8 +51,7 @@ layout: layout
         {% endfor %}
     </div>
     <div class="pt-8 pr-8 pl-8">
-        <!-- <p class="white size-4 border-b2">Education</p> -->
-        <p class="tracking-wider montserrat uppercase pt-8">Education</p>
+        <p class="uppercase font-extrabold text-yellow-500 tracking-widest mt-8">Experience</p>
         {% for school in site.data.info.schooling %}
             <div class="mb-8 pb-8">
                 <div class="flex align-base size-8 mgn-b2 wrap">
@@ -68,7 +67,7 @@ layout: layout
 
                 <div class="flex items-start leading-8 mb-4">
                     <i class="w-4 mt-1 mr-2" data-feather="circle"></i>
-                    <p class="max-w-xl">{{ school.description }}</p>
+                    <p class="max-w-3xl">{{ school.description }}</p>
                 </div>
 
                 <!-- <Container class="flex wrap">
