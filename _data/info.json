@@ -43,7 +43,7 @@
     ],
     "schooling": [
         {
-            "role": "Web Developmentent Immersive",
+            "role": "Web Dev Immersive",
             "name": "General Assembly",
             "description": "Completed twelve-week intensive in web development fundamentals consisting of full-time classes and hours of daily homework. Built applications from scratch on a daily basis across numerous languages and frameworks.",
             "tech": ["Ruby on Rails", "Angular", "MongoDB", "Sinatra", "Node"],
@@ -55,7 +55,8 @@
             "name": "NYU",
             "quote": "NYU Jazz provides aspiring students advanced performance training combined with the finest related academic and music courses designed to encourage entrepreneurship.",
             "description": "One of twenty accepted into one of the world’s most prestigious jazz programs. Studied privately with members of the NYC Philharmonic Orchestra and several members of Miles Davis’s band.",
-            "link": "https://nyu.edu"
+            "link": "https://nyu.edu",
+            "date": "9.01.2011 - 5.15.2015"
         }
     ],
     "contact": [
