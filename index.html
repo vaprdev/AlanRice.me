@@ -1,11 +1,56 @@
 ---
 layout: layout
 ---
+<div class="bg-dark-blue pad-8" style="border:20px solid #fbeccf;">
+    <div class="size-8 fg-white line-6 mgn-b8 pad-b8">Hi, I'm Alan Rice, a developer living in
+        <span class="fg-light-green" style="text-decoration:line-through;">San Francisco</span>
+        Manhattan. I specialize in scaling tech at small companies.
+    </div>
 
-{% include header.html %}
-<div class="main__container">
+    <p class="fg-white border-b1 border-red inline-block mgn-b4">Experience</p>
 
-    {% include contact.html %}
-    {% include experience.html %}
-    {% include education.html %}
+    {% for job in site.data.info.jobs %}
+        <div class="mgn-b8 pad-b8">
+            <div class="flex wrap size-8 align-around fg-white mgn-b2">
+                <div class="">{{ job.name }}</div>
+                <div class="mgn-h4 size-4 weight-8">\\</div>
+                <div class="size-6">{{ job.role }}</div>
+            </div>
+            <div class="flex">
+                <div class="fg-white">{{ job.date }}</div>
+                <div class="fg-white mgn-h4">\\</div>
+                <div class="fg-white">{{job.link}}</div>
+            </div>
+            <div class="size-8 mgn-v2 flex justify-start fg-white" style="margin-left:-4px;">-</div>
+
+            {% for highlight in job.highlights %}
+                <p class="fg-white line-6 mgn-b4">&bull;&nbsp;{{ highlight }}</p>
+            {% endfor %}
+            <Container class="flex wrap">
+                {% for language in job.tech %}
+                    <p class="green size-4 mgn-r8 border">{{language}}</p>
+                {% endfor %}
+            </Container>
+        </div>
+    {% endfor %}
+
+    <p class="white size-4 border-b2">Education</p>
+    {% for school in site.data.info.schooling %}
+        <div class="mgn-b8">
+            <div class="flex align-base green size-8 mgn-b2 wrap">
+                <span class="size-8 mgn-b2">{{ school.name }}</span>
+                <span class="mgn-l2 mgn-r2">-</span>
+                <span class="size-6 white mgn-b2">{{ school.role }}</span>
+            </div>
+
+            <p class="white size-4">{{ school.description }}</p>
+
+            <Container class="flex wrap">
+                {% for language in school.tech %}
+                    <p class="green size-4 mgn-r8 border">{{language}}</p>
+                {% endfor %}
+            </Container>
+        </div>
+    {% endfor %}
+    <div class="main__container"></div>
 </div>
