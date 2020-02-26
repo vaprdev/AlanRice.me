@@ -68,22 +68,23 @@ body {
 // $margin--large: 30px;
 // $margin--huge: 60px;
 
-// @-webkit-keyframes spin1 {
-//     0% {
-//         -webkit-transform: rotate(0deg);
-//     }
-//     100% {
-//         -webkit-transform: rotate(360deg);
-//     }
-// }
+@-webkit-keyframes spin1 {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
 
-// @mixin spin {
-//     -webkit-animation: spin1 2s infinite linear;
-//     -moz-animation: spin1 2s infinite linear;
-//     -o-animation: spin1 2s infinite linear;
-//     -ms-animation: spin1 2s infinite linear;
-//     animation: spin1 2s infinite linear;
-// }
+@mixin spin {
+    -webkit-animation: spin1 4s infinite linear;
+    -moz-animation: spin1 4s infinite linear;
+    -o-animation: spin1 4s infinite linear;
+    -ms-animation: spin1 4s infinite linear;
+    transform-origin: center center;
+    animation: spin1 4s infinite linear;
+}
 
 // @mixin font {
 //     font-family: $roboto;
@@ -226,13 +227,10 @@ body {
 //     margin-bottom: $margin--huge;
 // }
 
-// .inline-img {
-//     @include spin;
-//     position: absolute;
-//     left: 13px;
-//     width: 29px;
-//     top: 6px;
-// }
+.inline-img {
+    @include spin;
+    width: 3rem;
+}
 
 // .text--header {
 //     // @include font-presets;
