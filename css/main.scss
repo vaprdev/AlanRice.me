@@ -1,7 +1,36 @@
 --- 
 ---
 
-@import './legos.css';
+@import './tailwind.css';
+
+body {
+    // font-family: 'Source Sans Pro',o;
+    font-family: 'Open Sans';
+    font-family: 'Montserrat';
+    font-family: 'Merriweather';
+    color: #292a2c;
+    letter-spacing: 0.25px;
+}
+
+.montserrat {
+    font-family: 'Montserrat';
+}
+
+.merriweather {
+    font-family: 'Merriweather';
+}
+
+.green {
+    color: #62bfad;
+}
+
+.white {
+    color: #f9f7e8;
+}
+
+.gray {
+    color: rgb(60, 60, 60);
+}
 
 // // fonts
 // $roboto: 'Roboto Mono', monospace;

@@ -6371,8 +6371,11 @@ video {
 .text-green-300 {
     color: #9ae6b4;
 }
-.text-green-400 {
+/* .text-green-400 {
     color: #68d391;
+} */
+.text-green-400 {
+    color: #62bfad;
 }
 .text-green-500 {
     color: #48bb78;
