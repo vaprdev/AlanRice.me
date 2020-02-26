@@ -2,63 +2,70 @@
 layout: layout
 ---
 
-<div class="p-4 border-purple-100 border-solid" style="border-width: 2rem;background: #F1F1F1 ;color: #292A2C;">
-    <div class="text-3xl mb-8 pb-8 text-purple-200 gray">
-        Hi, I'm Alan Rice, a developer living in
-        <span class="fg-light-green" style="text-decoration:line-through;">San Francisco</span>
-        Manhattan. I specialize in scaling tech at small companies.
+<div class="tracking-wide">
+    <div class="text-4xl bg-black p-8 text-white montserrat tracking-wide">
+        <div class="max-w-3xl">
+            Hi, I'm Alan Rice, a developer living in
+            <span class="" style="text-decoration:line-through;">San Francisco</span>
+            Manhattan. I specialize in scaling tech at small companies.
+        </div>
     </div>
+    <div class="border-white p-8" style="background: #F1F1F1; color: #292A2C;">
+        <p class="fg-light-green gray tracking-wider montserrat">EXPERIENCE</p>
 
-    <p class="fg-light-green gray tracking-wider montserrat">EXPERIENCE</p>
-
-    {% for job in site.data.info.jobs %}
-        <div class="mgn-b8 pad-b8">
-            <div class="flex flex-wrap items-baseline fg-white montserrat mb-1">
-                <div class="montserrat text-4xl font-semibold">{{ job.name }}</div>
-                <div class="text-3xl mx-2">-</div>
-                <div class="montserrat text-4xl">{{ job.role }}</div>
-            </div>
-            <div class="flex mb-4 text-lg">
-                <div class="fg-white">{{ job.date }}</div>
-                <div class="fg-white mx-2">-</div>
-                <a class="text-blue-700 font-medium">{{job.link}}</a>
-            </div>
-            <!-- <div class="text-xl">-</div> -->
-
-            {% for highlight in job.highlights %}
-                <div class="flex items-start leading-8 mb-4">
-                    <i class="w-5 mt-1 mr-2" data-feather="arrow-right"></i>
-                    <p class="max-w-3xl">{{ highlight }}</p>
+        {% for job in site.data.info.jobs %}
+            <div class="mb-8 pb-8">
+                <div class="flex flex-wrap items-baseline fg-white montserrat mb-1">
+                    <div class="montserrat text-4xl font-semibold">{{ job.name }}</div>
+                    <div class="text-3xl mx-2">-</div>
+                    <div class="montserrat text-4xl">{{ job.role }}</div>
                 </div>
-            {% endfor %}
-            <Container class="flex wrap">
-                {% for language in job.tech %}
-                    <div class="flex p-3 montserrat mr-4 mb-4 text-red-600">
-                        <i class="w-5 mr-1" data-feather="tool"></i>
-                        <p class="size-4 font-extrabold uppercase">{{language}}</p>
+                <div class="flex mb-4 text-lg">
+                    <div class="fg-white">{{ job.date }}</div>
+                    <div class="fg-white mx-2">-</div>
+                    <a class="text-blue-700 font-medium">{{job.link}}</a>
+                </div>
+                <!-- <div class="text-xl">-</div> -->
+
+                <div class="flex">
+                    <div class="mr-8">
+                        {% for highlight in job.highlights %}
+                            <div class="flex items-start leading-8 mb-4">
+                                <i class="w-5 mt-1 mr-2" data-feather="arrow-right"></i>
+                                <p class="max-w-xl">{{ highlight }}</p>
+                            </div>
+                        {% endfor %}
                     </div>
-                {% endfor %}
-            </Container>
-        </div>
-    {% endfor %}
-
-    <p class="white size-4 border-b2">Education</p>
-    {% for school in site.data.info.schooling %}
-        <div class="mgn-b8">
-            <div class="flex align-base green size-8 mgn-b2 wrap">
-                <span class="size-8 mgn-b2">{{ school.name }}</span>
-                <span class="mgn-l2 mgn-r2">-</span>
-                <span class="size-6 white mgn-b2">{{ school.role }}</span>
+                    <Container class="">
+                        {% for language in job.tech %}
+                            <div class="flex montserrat mb-8 text-red-600 text-lg">
+                                <i class="w-5 mr-1" data-feather="tool"></i>
+                                <p class="font-extrabold uppercase">{{language}}</p>
+                            </div>
+                        {% endfor %}
+                    </Container>
+                </div>
             </div>
+        {% endfor %}
 
-            <p class="white size-4">{{ school.description }}</p>
+        <p class="white size-4 border-b2">Education</p>
+        {% for school in site.data.info.schooling %}
+            <div class="mgn-b8">
+                <div class="flex align-base green size-8 mgn-b2 wrap">
+                    <span class="size-8 mgn-b2">{{ school.name }}</span>
+                    <span class="mgn-l2 mgn-r2">-</span>
+                    <span class="size-6 white mgn-b2">{{ school.role }}</span>
+                </div>
 
-            <Container class="flex wrap">
-                {% for language in school.tech %}
-                    <p class="green size-4 mgn-r8 border">{{language}}</p>
-                {% endfor %}
-            </Container>
-        </div>
-    {% endfor %}
-    <div class="main__container"></div>
+                <p class="white size-4">{{ school.description }}</p>
+
+                <Container class="flex wrap">
+                    {% for language in school.tech %}
+                        <p class="green size-4 mgn-r8 border">{{language}}</p>
+                    {% endfor %}
+                </Container>
+            </div>
+        {% endfor %}
+        <div class="main__container"></div>
+    </div>
 </div>
