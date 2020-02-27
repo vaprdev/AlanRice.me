@@ -1,43 +1,29 @@
-<div>
-    <p class="white size-4 border-b2">Experience</p>
+<div class="mb-4 pb-4">
+    <div class="flex flex-wrap text-4xl items-baseline fg-white montserrat mb-1">
+        <div class="montserrat text-red-500 mr-4">{{ include.exp.name }}</div>
+        <!-- <div class="mx-4">|</div> -->
+        <div class="montserrat">{{ include.exp.role }}</div>
+    </div>
+    <div class="flex flex-wrap text-xl mb-4">
+        <div class="mr-4 mb-2 uppercase fg-white">{{ include.exp.date }}</div>
+        <div class="mr-4 mb-2 fg-white">!!New York</div>
+        <a class="mb-2 text-blue-500 mr-3 font-medium">{{ include.exp.link}}</a>
+    </div>
+    <!-- <div class="text-4xl">-</div> -->
 
-    {% for job in site.data.info.jobs %}
-    <div class="mgn-b8">
-        <div class="flex align-base green size-8 mgn-b2 wrap">
-            <span class="size-8 mgn-b2">{{ job.name }}</span>
-            <span class="mgn-l2 mgn-r2">-</span>
-            <span class="size-6 white mgn-b2">{{ job.role }}</span>
+    <div class="flex flex-wrap">
+        <div class="lg:mr-8 lg:pr-8">
+            {% for highlight in include.exp.highlights %}
+                {% include highlight.html highlight=highlight %}
+            {% endfor %}
         </div>
-        <div class="white size-4">{{ job.date }}</div>
-        <div class="mgn-t4 mgn-b4 highlight-dash">-</div>
-
-        {% for highlight in job.highlights %}
-        <p class="white size-4">&bull;&nbsp;{{ highlight }}</p>
-        {% endfor %}
-        <Container class="flex wrap">
-            {% for language in job.tech %}
-            <p class="green size-4 mgn-r8 border">{{language}}</p>
+        <Container class="mt-4 lg:mt-1">
+            {% for tool in include.exp.tools %}
+                <div class="flex items-center montserrat mb-4 text-orange-600">
+                    <i class="w-5 mr-2" data-feather="tool"></i>
+                    <p class="text-lg font-semibold tracking-widest uppercase">{{ tool }}</p>
+                </div>
             {% endfor %}
         </Container>
     </div>
-    {% endfor %}
 </div>
-
-<p class="white size-4 border-b2">Education</p>
-{% for school in site.data.info.schooling %}
-<div class="mgn-b8">
-    <div class="flex align-base green size-8 mgn-b2 wrap">
-        <span class="size-8 mgn-b2">{{ school.name }}</span>
-        <span class="mgn-l2 mgn-r2">-</span>
-        <span class="size-6 white mgn-b2">{{ school.role }}</span>
-    </div>
-
-    <p class="white size-4">{{ school.description }}</p>
-
-    <Container class="flex wrap">
-        {% for language in school.tech %}
-        <p class="green size-4 mgn-r8 border">{{language}}</p>
-        {% endfor %}
-    </Container>
-</div>
-{% endfor %}

@@ -1,17 +1,24 @@
 {
-    "jobs": [
+    "experiences": [
         {
             "role": "Software Engineer",
             "name": "Ride Health",
             "date": "9.05.2017 - present",
             "description": "Ride Health improves access to care for the 3.6 million low-income, elderly and disabled patients who face transportation barriers. Missed appointments cause billions in lost revenue for providers, lower health status for patients, and high downstream costs for payers. Ride Health improves patients' and coordinators' experiences, reduces no-shows and delayed discharges, and avoids hospital visits through improved engagement and compliance.",
-            "tech": ["Elixir", "React", "Typescript", "NOSQL", "GCP", "Twilio"],
+            "tools": [
+                "Elixir",
+                "React",
+                "Typescript",
+                "NOSQL",
+                "GCP",
+                "Twilio"
+            ],
             "link": "http://ride-health.com",
             "highlights": [
                 "Second hire at company that scaled from $0 to $15M and from 3 to 25+ employees.",
                 "Won contracts with a four person engineering team going head-to-head against competitors with substantially more capital and engineering overhead.",
                 "Built an automated voice system that reduced inbound customer support phones calls 80%. The system exposes product functionality and real-time ride information to patients in sixteen different languages.",
-                "Delivered a higher level of service to patients by innovating tech solutions for transportation providers. Products include an sms-based system allowing drivers to update their trips statuses and locations in real-time."
+                "Delivered a higher level of service to patients by innovating tools solutions for transportation providers. Products include an sms-based system allowing drivers to update their trips statuses and locations in real-time."
             ],
             "location": "New York"
         },
@@ -19,8 +26,8 @@
             "role": "Web Developer",
             "name": "Authorea",
             "date": "8.20.2016 - 8.29.2017",
-            "description": "Authorea is a web-native platform for writing technical documents collaboratively. Every document you create becomes a beautiful web-page which you can choose to share with your coauthors and the public.",
-            "tech": ["Ruby", "Rails", "Redux", "React", "Sass/CSS", "HTML"],
+            "description": "Authorea is a web-native platform for writing toolsnical documents collaboratively. Every document you create becomes a beautiful web-page which you can choose to share with your coauthors and the public.",
+            "tools": ["Ruby", "Rails", "Redux", "React", "Sass/CSS", "HTML"],
             "link": "https://authorea.com",
             "highlights": [
                 "Sole developer responsible for implementing UI updates to the core product and associated landing pages.",
@@ -33,7 +40,7 @@
             "role": "Web Development Intern",
             "name": "Oak Studios",
             "description": "Oak is an independent design-led product studio based in cloudy Brooklyn, New York. We make creative products like Dropmark and Siteleaf, and work on a number of other ventures.",
-            "tech": [
+            "tools": [
                 "Ruby",
                 "Rails",
                 "Jekyll",
@@ -55,8 +62,10 @@
         {
             "role": "Web Dev Immersive",
             "name": "General Assembly",
-            "description": "Completed twelve-week intensive in web development fundamentals consisting of full-time classes and hours of daily homework. Built applications from scratch on a daily basis across numerous languages and frameworks.",
-            "tech": ["Ruby on Rails", "Angular", "MongoDB", "Sinatra", "Node"],
+            "highlights": [
+                "Completed twelve-week intensive in web development fundamentals consisting of full-time classes and hours of daily homework. Built applications from scratch on a daily basis across numerous languages and frameworks."
+            ],
+            "tools": ["Ruby on Rails", "Angular", "MongoDB", "Sinatra", "Node"],
             "link": "https://generalassemb.ly",
             "date": "7.15.2015 - 10.20.2015"
         },
@@ -64,7 +73,9 @@
             "role": "Bachelor's in Music",
             "name": "NYU",
             "quote": "NYU Jazz provides aspiring students advanced performance training combined with the finest related academic and music courses designed to encourage entrepreneurship.",
-            "description": "One of twenty accepted into one of the world’s most prestigious jazz programs. Studied privately with members of the NYC Philharmonic Orchestra and several members of Miles Davis’s band.",
+            "highlights": [
+                "One of twenty accepted into one of the world’s most prestigious jazz programs. Studied privately with members of the NYC Philharmonic Orchestra and several members of Miles Davis’s band."
+            ],
             "link": "https://nyu.edu",
             "date": "9.01.2011 - 5.15.2015"
         }
