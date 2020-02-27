@@ -3,7 +3,7 @@
         {
             "role": "Software Engineer",
             "name": "Ride Health",
-            "date": "9.05.2017 - present",
+            "date": "sep 2017 - present",
             "description": "Ride Health improves access to care for the 3.6 million low-income, elderly and disabled patients who face transportation barriers. Missed appointments cause billions in lost revenue for providers, lower health status for patients, and high downstream costs for payers. Ride Health improves patients' and coordinators' experiences, reduces no-shows and delayed discharges, and avoids hospital visits through improved engagement and compliance.",
             "tools": [
                 "Elixir",
@@ -13,7 +13,7 @@
                 "GCP",
                 "Twilio"
             ],
-            "link": "http://ride-health.com",
+            "link": "https://ride-health.com",
             "highlights": [
                 "Second hire at company that scaled from $0 to $15M and from 3 to 25+ employees.",
                 "Won contracts with a four person engineering team going head-to-head against competitors with substantially more capital and engineering overhead.",
@@ -25,7 +25,7 @@
         {
             "role": "Web Developer",
             "name": "Authorea",
-            "date": "8.20.2016 - 8.29.2017",
+            "date": "aug 2016 - aug 2017",
             "description": "Authorea is a web-native platform for writing toolsnical documents collaboratively. Every document you create becomes a beautiful web-page which you can choose to share with your coauthors and the public.",
             "tools": ["Ruby", "Rails", "Redux", "React", "Sass/CSS", "HTML"],
             "link": "https://authorea.com",
@@ -49,7 +49,7 @@
                 "SASS/CSS"
             ],
             "link": "https://oak.is",
-            "date": "2.15.2016 - 5.15.2016",
+            "date": "feb 2016 - may 2016",
             "highlights": [
                 "Built and deployed client website from scratch in under a month and integrated with a CMS allowing the customer to update website content at will.",
                 "Dug into complex and long-standing client code-bases to find and fix bugs, including WorkingNotWorking.com.",
@@ -67,7 +67,7 @@
             ],
             "tools": ["Ruby on Rails", "Angular", "MongoDB", "Sinatra", "Node"],
             "link": "https://generalassemb.ly",
-            "date": "7.15.2015 - 10.20.2015"
+            "date": "jul 2015 - oct 2015"
         },
         {
             "role": "Bachelor's in Music",
@@ -77,7 +77,7 @@
                 "One of twenty accepted into one of the world’s most prestigious jazz programs. Studied privately with members of the NYC Philharmonic Orchestra and several members of Miles Davis’s band."
             ],
             "link": "https://nyu.edu",
-            "date": "9.01.2011 - 5.15.2015"
+            "date": "sep 2011 - may 2015"
         }
     ],
     "contact": [

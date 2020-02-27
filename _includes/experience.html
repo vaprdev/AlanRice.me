@@ -1,15 +1,14 @@
 <div class="mb-4 pb-4">
-    <div class="flex flex-wrap text-4xl items-baseline fg-white montserrat mb-1">
-        <div class="montserrat text-red-500 mr-4">{{ include.exp.name }}</div>
+    <div class="flex flex-wrap items-baseline fg-white  mb-1">
+        <div class="font-semibold tracking-wider text-5xl text-red-500 mr-4">{{ include.exp.name }}</div>
         <!-- <div class="mx-4">|</div> -->
-        <div class="montserrat">{{ include.exp.role }}</div>
+        <div class="text-4xl">{{ include.exp.role }}</div>
     </div>
     <div class="flex flex-wrap text-xl mb-4">
         <div class="mr-4 mb-2 uppercase fg-white">{{ include.exp.date }}</div>
-        <div class="mr-4 mb-2 fg-white">!!New York</div>
-        <a class="mb-2 text-blue-500 mr-3 font-medium">{{ include.exp.link}}</a>
+        <div class="mr-4 mb-2 fg-white">New York, NY</div>
+        <a class="underline mb-2 text-blue-500 mr-3 font-medium" target="_blank" href={{include.exp.link}}>{{ include.exp.link}}</a>
     </div>
-    <!-- <div class="text-4xl">-</div> -->
 
     <div class="flex flex-wrap">
         <div class="lg:mr-8 lg:pr-8">
@@ -19,7 +18,7 @@
         </div>
         <Container class="mt-4 lg:mt-1">
             {% for tool in include.exp.tools %}
-                <div class="flex items-center montserrat mb-4 text-orange-600">
+                <div class="flex items-center  mb-4 text-orange-600">
                     <i class="w-5 mr-2" data-feather="tool"></i>
                     <p class="text-lg font-semibold tracking-widest uppercase">{{ tool }}</p>
                 </div>
