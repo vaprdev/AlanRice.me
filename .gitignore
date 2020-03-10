@@ -1,5 +1,5 @@
 .sass-cache/
-_site
+_site/
 s3_website.yml
 vendor/
 node_modules/
