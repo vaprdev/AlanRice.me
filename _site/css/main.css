@@ -1,0 +1,18 @@
+@import url(./tailwind.css);
+body {
+  font-family: 'Montserrat';
+  color: #292a2c;
+  letter-spacing: 0.25px; }
+
+@-webkit-keyframes spin1 {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+.inline-img {
+  -webkit-animation: spin1 4s infinite linear;
+  -moz-animation: spin1 4s infinite linear;
+  -o-animation: spin1 4s infinite linear;
+  -ms-animation: spin1 4s infinite linear;
+  transform-origin: center center;
+  animation: spin1 4s infinite linear; }
