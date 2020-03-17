@@ -27,7 +27,14 @@
             "name": "Authorea",
             "date": "aug 2016 - aug 2017",
             "description": "Authorea is a web-native platform for writing toolsnical documents collaboratively. Every document you create becomes a beautiful web-page which you can choose to share with your coauthors and the public.",
-            "tools": ["Ruby", "Rails", "Redux", "React", "Sass/CSS", "HTML"],
+            "tools": [
+                "Ruby",
+                "Rails",
+                "Redux",
+                "React",
+                "Sass/CSS",
+                "HTML"
+            ],
             "link": "https://authorea.com",
             "highlights": [
                 "Sole developer responsible for implementing UI updates to the core product and associated landing pages.",
@@ -65,7 +72,13 @@
             "highlights": [
                 "Completed twelve-week intensive in web development fundamentals consisting of full-time classes and hours of daily homework. Built applications from scratch on a daily basis across numerous languages and frameworks."
             ],
-            "tools": ["Ruby on Rails", "Angular", "MongoDB", "Sinatra", "Node"],
+            "tools": [
+                "Ruby on Rails",
+                "Angular",
+                "MongoDB",
+                "Sinatra",
+                "Node"
+            ],
             "link": "https://generalassemb.ly",
             "date": "jul 2015 - oct 2015"
         },
@@ -81,22 +94,30 @@
         }
     ],
     "contact": [
-        [
-            {
-                "name": "Email",
-                "link": "mailto:mail@alanrice.me",
-                "display": "mail@alanrice.me"
-            },
-            {
-                "name": "Github",
-                "display": "github.com/AlanRice93",
-                "link": "https://github.com/AlanRice93"
-            },
-            {
-                "name": "LinkedIn",
-                "display": "linkedin.com/in/alanricecode",
-                "link": "https://www.linkedin.com/in/alanricecode/"
-            }
-        ]
+        {
+            "name": "mail@alanrice.me",
+            "link": "mailto:mail@alanrice.me",
+            "display": "mail@alanrice.me",
+        },
+        {
+            "name": "LinkedIn",
+            "display": "linkedin.com/in/alanricecode",
+            "link": "https://www.linkedin.com/in/alanricecode/",
+        },
+        {
+            "name": "AngelList",
+            "display": "linkedin.com/in/alanricecode",
+            "link": "https://angel.co/alan-rice",
+        },
+        {
+            "name": "Github",
+            "display": "github.com/AlanRice93",
+            "link": "https://github.com/AlanRice93",
+        },
+        {
+            "name": "Twitter",
+            "display": "https://twitter.com/Alan__Rice",
+            "link": "https://twitter.com/Alan__Rice",
+        }
     ]
 }

@@ -1,8 +1,7 @@
-<div>
-	<p class="text--header">Contact</p>
-	{% for contact in site.data.contacts %}
-	<div class="unordered-list-item">
-		<a href={{ contact.link }} target="_blank" class="text--highlight text--link">{{contact.name}}</a>
+<div class="mb-4">
+	<div class="mb-4 font-medium tracking-wider underline text-blue-500 text-3xl lg:text-4xl">
+		<a href={{ include.exp.link}} target="_blank">
+			{{ include.exp.name }}
+		</a>
 	</div>
-	{% endfor %}
 </div>

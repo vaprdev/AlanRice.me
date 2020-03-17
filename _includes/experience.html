@@ -16,13 +16,13 @@
                 {% include highlight.html highlight=highlight %}
             {% endfor %}
         </div>
-        <Container class="mt-4 lg:mt-1">
+        <div class="mt-4 lg:mt-1">
             {% for tool in include.exp.tools %}
                 <div class="flex items-center  mb-4 text-orange-600">
                     <i class="w-5 mr-2" data-feather="tool"></i>
                     <p class="text-lg font-semibold tracking-widest uppercase">{{ tool }}</p>
                 </div>
             {% endfor %}
-        </Container>
+        </div>
     </div>
 </div>
