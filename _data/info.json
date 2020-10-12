@@ -1,9 +1,16 @@
 {
     "experiences": [
         {
+            "role": "Front-end Developer", 
+            "name": "Kinetic", 
+            "date": "jul 2020 - present", 
+            "highlights": "At Kinetic I help with all-things front-end, working mostly with React and Redux. Kinetic’s dashboards offer data insights into their wearable devices as well as allow users to handle all related admin tasks. Most of my work has been centered around feature development for social-distancing protocols related to Covid-19.",
+            "tools": ["React", "Redux"]
+        }, 
+        {
             "role": "Software Engineer",
             "name": "Ride Health",
-            "date": "sep 2017 - present",
+            "date": "sep 2017 - jun 2020",
             "description": "Ride Health improves access to care for the 3.6 million low-income, elderly and disabled patients who face transportation barriers. Missed appointments cause billions in lost revenue for providers, lower health status for patients, and high downstream costs for payers. Ride Health improves patients' and coordinators' experiences, reduces no-shows and delayed discharges, and avoids hospital visits through improved engagement and compliance.",
             "tools": [
                 "Elixir",
@@ -15,10 +22,7 @@
             ],
             "link": "https://ride-health.com",
             "highlights": [
-                "Second hire at company that scaled from $0 to $15M and from 3 to 25+ employees.",
-                "Won contracts with a four person engineering team going head-to-head against competitors with substantially more capital and engineering overhead.",
-                "Built an automated voice system that reduced inbound customer support phones calls 80%. The system exposes product functionality and real-time ride information to patients in sixteen different languages.",
-                "Delivered a higher level of service to patients by innovating tools solutions for transportation providers. Products include an sms-based system allowing drivers to update their trips statuses and locations in real-time."
+                "I started as a junior on a team of two. As the company grew from four to 25 employees, my responsibilities grew to include full-stack development and feature architecture. The product was a robust real-time system that included scheduling, notifications, billing, fleet selection, and much more for non-emergency medical transportation. We used React and Typescript on the front-end and Elixir for the back-end. My largest contribution was an IVR system that exposed much of our application’s functionality including read-time ride-hailing. The IVR system eventually reduced our inbound customer support phone calls by over 80%. "
             ],
             "location": "New York"
         },
@@ -26,7 +30,7 @@
             "role": "Web Developer",
             "name": "Authorea",
             "date": "aug 2016 - aug 2017",
-            "description": "Authorea is a web-native platform for writing toolsnical documents collaboratively. Every document you create becomes a beautiful web-page which you can choose to share with your coauthors and the public.",
+            "description": " As a web-developer at Authorea my first task was rebuilding their landing site according to new designs. The new designs were accompanied by a migration off of Bootstrap and into custom components and style guides. I spent the bulk of my remaining building front-end features for Authorea’s core product, a web-editor similar to google docs. Most of this work was done in React and Redux, using Ruby on Rails on the back-end.",
             "tools": [
                 "Ruby",
                 "Rails",
@@ -37,9 +41,7 @@
             ],
             "link": "https://authorea.com",
             "highlights": [
-                "Sole developer responsible for implementing UI updates to the core product and associated landing pages.",
-                "Built and deployed a complete rewrite of the company’s landing page in the first three weeks of employment, developing it from a boilerplate template to a fully customized page.",
-                "Developed features across the stack, including custom onboarding flows and stripe payment systems."
+                "As a web-developer at Authorea my first task was rebuilding their landing site according to new designs. The new designs were accompanied by a migration off of Bootstrap and into custom components and style guides. I spent the bulk of my remaining building front-end features for Authorea’s core product, a web-editor similar to google docs. Most of this work was done in React and Redux, using Ruby on Rails on the back-end."
             ],
             "location": "New York"
         },
@@ -58,9 +60,7 @@
             "link": "https://oak.is",
             "date": "feb 2016 - may 2016",
             "highlights": [
-                "Built and deployed client website from scratch in under a month and integrated with a CMS allowing the customer to update website content at will.",
-                "Dug into complex and long-standing client code-bases to find and fix bugs, including WorkingNotWorking.com.",
-                "Adhered to Oak’s internal design systems and code style-guides for all features. Participated in frequent code feedback and review sessions."
+                "Interning at Oak was my first exposure to professional development, including code reviews, bug fixes, issue tracking, and much more. My biggest contribution was building the http://freelancer.creativemornings.com/ website from scratch. I also wrote some small fixes for https://workingnotworking.com/ and other Oak clients. We used the static-site generator Jekyll for most of the front-end work, and Ruby on Rails on the backend."
             ],
             "location": "New York"
         }
@@ -70,7 +70,7 @@
             "role": "Web Dev Immersive",
             "name": "General Assembly",
             "highlights": [
-                "Completed twelve-week intensive in web development fundamentals consisting of full-time classes and hours of daily homework. Built applications from scratch on a daily basis across numerous languages and frameworks."
+                "This was a 12-week web-development intensive. Classes were held from 9-5pm everyday with around four hours ago homework each night. I chose GA because all of the learning is hands-on. We built everything from simple javascript scripts to full web applications. We learned the basics of version control, agile, and web development. My final project was a music recommendation interface that, using D3, displayed a never-ending stream of related musical artists."
             ],
             "tools": [
                 "Ruby on Rails",
@@ -87,7 +87,7 @@
             "name": "NYU",
             "quote": "NYU Jazz provides aspiring students advanced performance training combined with the finest related academic and music courses designed to encourage entrepreneurship.",
             "highlights": [
-                "One of twenty accepted into one of the world’s most prestigious jazz programs. Studied privately with members of the NYC Philharmonic Orchestra and several members of Miles Davis’s band."
+                "I came to NYU with the single focus of becoming a professional musician. Throughout my four years I was lucky to study with some of the best musicians in the world, including Billy Hart (in Miles Davis’s band), Pablo Rieppi (NYC Opera and NYC Philharmonic), and Lenny White (also in Miles Davis’s band). The experience taught me that I loved the tinkering, exploratory craftsmanship of music but was not cut out for the intensely social, travel-intensive lifestyle. Luckily I was able to find this same passion in programming."
             ],
             "link": "https://nyu.edu",
             "date": "sep 2011 - may 2015"
