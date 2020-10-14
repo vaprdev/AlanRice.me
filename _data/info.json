@@ -5,7 +5,8 @@
             "name": "Kinetic", 
             "date": "jul 2020 - present", 
             "highlights": "At Kinetic I help with all-things front-end, working mostly with React and Redux. Kinetic’s dashboards offer data insights into their wearable devices as well as allow users to handle all related admin tasks. Most of my work has been centered around feature development for social-distancing protocols related to Covid-19.",
-            "tools": ["React", "Redux"]
+            "tools": ["React", "Redux"], 
+            "link": "https://wearkinetic.com"
         }, 
         {
             "role": "Software Engineer",
