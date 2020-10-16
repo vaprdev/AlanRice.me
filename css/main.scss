@@ -1,32 +1,33 @@
 --- 
 ---
 
-@import './tailwind.css';
+@import "./tailwind.css";
 
 body {
-    font-family: 'Montserrat';
-    color: #292a2c;
-    letter-spacing: 0.25px;
+	font-family: "Montserrat";
+	color: #292a2c;
+	letter-spacing: 0.25px;
+	border: 10px solid #9f7aea;
 }
 
 @-webkit-keyframes spin1 {
-    0% {
-        -webkit-transform: rotate(0deg);
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-    }
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
 }
 
 @mixin spin {
-    -webkit-animation: spin1 4s infinite linear;
-    -moz-animation: spin1 4s infinite linear;
-    -o-animation: spin1 4s infinite linear;
-    -ms-animation: spin1 4s infinite linear;
-    transform-origin: center center;
-    animation: spin1 4s infinite linear;
+	-webkit-animation: spin1 4s infinite linear;
+	-moz-animation: spin1 4s infinite linear;
+	-o-animation: spin1 4s infinite linear;
+	-ms-animation: spin1 4s infinite linear;
+	transform-origin: center center;
+	animation: spin1 4s infinite linear;
 }
 
 .inline-img {
-    @include spin;
+	@include spin;
 }
